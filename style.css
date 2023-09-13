@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Inter, "Noto Sans JP", sans-serif;
+  font-family: Inter, "M PLUS Rounded 1c", "Noto Sans JP", sans-serif;
 }
 
 html,
@@ -84,7 +84,7 @@ img {
 }
 
 .steno {
-  width: 30em;
+  width: 32em;
   margin: 1em auto;
   text-align: left !important;
 }
@@ -94,7 +94,9 @@ rt {
 }
 
 .line {
-  font-family: "JetBrains Mono", "Courier New", Courier, monospace;
+  font-family: "Azeret Mono", "JetBrains Mono", "Courier New", Courier,
+    monospace;
+  letter-spacing: 1px;
   font-size: 1.25em;
   line-height: 1.5em;
   white-space: pre;
@@ -127,7 +129,8 @@ rt {
 }
 .gojuon tr td:nth-child(even) {
   text-align: left;
-  padding-right: 2em;
+  width: fit-content;
+  padding-right: 1.5em;
 }
 .gojuon .exception {
   color: red;
@@ -143,7 +146,7 @@ em {
 }
 
 code {
-  font-family: "JetBrains Mono";
+  font-family: "Azeret Mono";
   font-weight: bold;
 }
 
