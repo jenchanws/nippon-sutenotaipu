@@ -16,9 +16,9 @@ header {
   line-height: 1.5em;
 }
 
-.warning {
+.note {
   margin-top: 30px;
-  background-color: #f29696;
+  background-color: #fff8c7;
   border-radius: 10px;
   padding: 20px;
   max-width: 35em;
