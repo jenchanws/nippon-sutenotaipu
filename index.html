@@ -1,0 +1,2720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>日本ステノタイプ Nippon Sutenotaipu</title>
+    <meta charset="UTF-8" />
+    <meta property="og:title" content="日本ステノタイプ Nippon Sutenotaipu" />
+    <meta
+      property="og:description"
+      content="Textbook on the Sokutaipu machine shorthand system"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <section>
+      <div lang="ja">
+        <h1>日本ステノタイプ</h1>
+        <h2>日本語の速記機械</h2>
+        <header>川上　晃<br />佐伯　功介<br />著</header>
+      </div>
+      <div lang="en">
+        <h1>Japanese Stenotype</h1>
+        <h2>Japanese Machine Stenography</h2>
+        <header>
+          by Kawakami Akira and Saeki Kōsuke<br />
+          <i>transcribed and translated by Jennifer Chan and Sammi de Guzman</i>
+        </header>
+      </div>
+    </section>
+    <section>
+      <div lang="ja">
+        <p>
+          この本はステノタイプで日本語を速記する方法について述べたものであり、中に入れた練習問題と共に、ステノタイプを習うものの教科書またわ独習書として使われる。
+        </p>
+
+        <h3>見出し</h3>
+        <ul class="contents">
+          <li><a href="#stenotype">ステノタイプ</a></li>
+          <li>基本：
+            <ul>
+              <li><a href="#gojuon">五十音</a></li>
+              <li><a href="#repetition">重ね言葉</a></li>
+            </ul>
+          </li>
+          <li><a href="#briefs">略語</a>：
+            <ol>
+              <li><a href="#brief-1">は、の、も</a></li>
+              <li><a href="#brief-2">わけ</a></li>
+              <li><a href="#brief-3">まで</a></li>
+              <li>
+                <ol>
+                  <li><a href="#brief-4-1">ある</a></li>
+                  <li><a href="#brief-4-2">間</a></li>
+                  <li><a href="#brief-4-3">ながら</a></li>
+                  <li><a href="#brief-4-4">あり</a></li>
+                  <li><a href="#brief-4-5">以下</a></li>
+                  <li><a href="#brief-4-6">ここ</a></li>
+                  <li><a href="#brief-4-7">行った</a></li>
+                  <li><a href="#brief-4-8">かろう</a></li>
+                  <li><a href="#brief-4-9">ましょう</a></li>
+                  <li><a href="#brief-4-10">あります</a></li>
+                  <li><a href="#brief-4-11">たり</a></li>
+                  <li><a href="#brief-4-12">はず</a></li>
+                  <li><a href="#brief-4-13">ような</a></li>
+                  <li><a href="#brief-4-14">なかった</a></li>
+                  <li><a href="#brief-4-15">ありません</a></li>
+                </ol>
+              </li>
+              <li><a href="#brief-5">あらゆる</a></li>
+              <li><a href="#brief-6">及び</a></li>
+              <li><a href="#brief-7">あるいは</a></li>
+              <li><a href="#brief-8">新しい</a></li>
+              <li><a href="#brief-9">同じな</a></li>
+              <li><a href="#brief-10">考える</a></li>
+              <li><a href="#brief-11">において</a></li>
+              <li><a href="#brief-12">問題</a></li>
+              <li><a href="#brief-13">日本</a></li>
+              <li><a href="#brief-14">すなわち</a></li>
+              <li><a href="#brief-15">もちろん</a></li>
+              <li><a href="#brief-16">けれども</a></li>
+              <li><a href="#brief-17">さらに</a></li>
+              <li><a href="#brief-18">〜ったら</a></li>
+            </ol>
+          </li>
+          <li><a href="#numbers">数言葉</a></li>
+          <li><a href="#symbols">印</a></li>
+        </ul>
+      </div>
+      <div lang="en">
+        <p>
+          This book describes a method for writing shorthand in Japanese using
+          Stenotype, and along with the practice exercises included, can be used
+          as a textbook or self-study book for those learning Stenotype.
+        </p>
+
+        <h3>Contents</h3>
+        <ul class="contents">
+          <li><a href="#stenotype">Stenotype</a></li>
+          <li>Basic Theory:
+            <ul>
+              <li><a href="#gojuon">Syllable Table</a></li>
+              <li><a href="#repetition">Repetition</a></li>
+            </ul>
+          </li>
+          <li><a href="#briefs">Briefs</a>:
+            <ol>
+              <li><a href="#brief-1">は (<i>wa</i>), の (<i>no</i>), も (<i>mo</i>)</a></li>
+              <li><a href="#brief-2">わけ (<i>wake</i>)</a></li>
+              <li><a href="#brief-3">まで (<i>made</i>)</a></li>
+              <li>
+                <ol>
+                  <li><a href="#brief-4-1">ある (<i>aru</i>)</a></li>
+                  <li><a href="#brief-4-2">間 (<i>aida</i>)</a></li>
+                  <li><a href="#brief-4-3">ながら (<i>nagara</i>)</a></li>
+                  <li><a href="#brief-4-4">あり (<i>ari</i>)</a></li>
+                  <li><a href="#brief-4-5">以下 (<i>ika</i>)</a></li>
+                  <li><a href="#brief-4-6">ここ (<i>koko</i>)</a></li>
+                  <li><a href="#brief-4-7">行った (<i>itta</i>)</a></li>
+                  <li><a href="#brief-4-8">かろう (<i>karou</i>)</a></li>
+                  <li><a href="#brief-4-9">ましょう (<i>mashou</i>)</a></li>
+                  <li><a href="#brief-4-10">あります (<i>arimasu</i>)</a></li>
+                  <li><a href="#brief-4-11">たり (<i>tari</i>)</a></li>
+                  <li><a href="#brief-4-12">はず (<i>hazu</i>)</a></li>
+                  <li><a href="#brief-4-13">ような (<i>youna</i>)</a></li>
+                  <li><a href="#brief-4-14">なかった (<i>nakatta</i>)</a></li>
+                  <li><a href="#brief-4-15">ありません (<i>arimasen</i>)</a></li>
+                </ol>
+              </li>
+              <li><a href="#brief-5">あらゆる (<i>arayuru</i>)</a></li>
+              <li><a href="#brief-6">及び (<i>oyobi</i>)</a></li>
+              <li><a href="#brief-7">あるいは (<i>aruiwa</i>)</a></li>
+              <li><a href="#brief-8">新しい (<i>atarashii</i>)</a></li>
+              <li><a href="#brief-9">同じな (<i>onajina</i>)</a></li>
+              <li><a href="#brief-10">考える (<i>kangaeru</i>)</a></li>
+              <li><a href="#brief-11">において (<i>ni oite</i>)</a></li>
+              <li><a href="#brief-12">問題 (<i>mondai</i>)</a></li>
+              <li><a href="#brief-13">日本 (<i>nippon</i>)</a></li>
+              <li><a href="#brief-14">すなわち (<i>sunawachi</i>)</a></li>
+              <li><a href="#brief-15">もちろん (<i>mochiron</i>)</a></li>
+              <li><a href="#brief-16">けれども (<i>keredomo</i>)</a></li>
+              <li><a href="#brief-17">さらに (<i>sarani</i>)</a></li>
+              <li><a href="#brief-18">〜ったら (<i>-ttara</i>)</a></li>
+            </ol>
+          </li>
+          <li><a href="#numbers">Numbers</a></li>
+          <li><a href="#symbols">Symbols</a></li>
+        </ul>
+      </div>
+    </section>
+    <section id="stenotype">
+      <div lang="ja">
+        <h2>ステノタイプとは？</h2>
+        <p>
+          ステノタイプは写真の様な小さなタイプライターである。うつ場合音はしない。ボタンは２２あり、文字はローマ字が出る。打つ紙は細長く、機械の下に入れておき、ボタンを打つと自動的に繰り出され、時だ映ると折り畳まれて機械の引き出しに治る。ボタンは両手の１０本の指でピアノのきいのように一度に幾つでも必要なだけ打つ事が出来るから、一つの言葉が一打ちで打てる。どんな早い話でも速記でき、また速記したものは誰にでも楽に読める。
+        </p>
+      </div>
+      <div lang="en">
+        <h2>What is Stenotype?</h2>
+        <p>
+          A stenotype machine is a small typewriter, much like the one shown in
+          the image below. There are 22 keys, labelled in Roman letters. A long
+          and thin piece of paper is placed under the machine, and each time
+          keys are pressed, it is automatically fed out and placed in the
+          machine's drawer. You can hit as many buttons as you need to at once
+          with all ten fingers on both hands, like the keys on a piano, so you
+          can write a whole word with one stroke. Any fast speech can be written
+          in shorthand, and anyone can easily read written shorthand.
+        </p>
+      </div>
+      <p><img src="stenotype.png" /></p>
+      <div lang="ja">
+        <p>
+          したのノートはステノタイプで速記したものである。左から右へ、一行ずつ縦によむ。
+        </p>
+      </div>
+      <div lang="en">
+        <p>
+          Below is an example of Stenotype shorthand notes. Read each line from
+          left to right.
+        </p>
+      </div>
+      <p id="page-1">
+        <div class="steno">
+                             <!-- YTHKSAIOTK*INOIASKHTY -->
+          <div><span class="line">Y      O   I         </span>よい</div>
+          <div><span class="line">  H    O    N        </span>ほん</div>
+          <div><span class="line">                     </span></div>
+          <div><span class="line">   K  I      O       </span>きを</div>
+          <div><span class="line">Y    A   K           </span>やく</div>
+          <div><span class="line">                     </span></div>
+          <div><span class="line">   K A       O       </span>かお</div>
+          <div><span class="line">             O       </span>を</div>
+          <div><span class="line">  H      K           </span>ふく</div>
+          <div><span class="line">                     </span></div>
+          <div><span class="line">   K A   K I O       </span>かきを</div>
+          <div><span class="line"> T   A       O       </span>たお</div>
+          <div><span class="line">    S                </span>す</div>
+        </div>
+      </p>
+      <div lang="ja">
+        <p>上の読み方は： よいほん、きをやく、かおをふく、かきをたおす。</p>
+      </div>
+      <div lang="en">
+        <p>
+          The above reads: よいほん <i>yoi hon</i>, きをやく <i>ki o yaku</i>,
+          かおをふく <i>kao o huku</i>, かきをたおす <i>kaki o taosu</i>.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div lang="ja">
+        <h2>一つの言葉が一打ち</h2>
+        <p>ステノタイプでは一語を一打ちにする。例えば「かお」という言葉を打つには、<code>K</code>、<code>A</code>、<code>O</code>三つのボタンお一度に打つ。すると紙の上には<code>KAO</code>と現れる。押したボタンから指を話せば、紙は自動的に送られる。</p>
+      </div>
+      <div lang="en">
+        <h2>One stroke for one word</h2>
+        <p>Stenotype lets you write one word in one stroke. For example, the word かお <i>kao</i> can be written by pressing the <code>K</code>, <code>A</code>, and <code>O</code> keys at once; then <code>KAO</code> appears on the paper. When you move your fingers off the keys, the paper will automatically advance.</p>
+      </div>
+    </section>
+    <section>
+      <div lang="ja">
+        <h2>ボタンの並び</h2>
+      </div>
+      <div lang="en">
+        <h2>Key Layout</h2>
+      </div>
+      <p><img src="layout.png" /></p>
+      <div lang="ja">
+        <p>普通のタイプライターでは文字は真ん中に一文字ずつ打てる様になっているが、ステノタイプでは全ての文字は紙の上のそれぞれ決まった位置に現れる。このため、ステノタイプのボタンはピアノきいよ様に行くつでも一度に打つ事ができる。</p>
+        <p>二十一の文字は紙の上にしたの様に現れる。</p>
+      </div>
+      <div lang="en">
+        <p>On a conventional typewriter, each letter is typed in the center, but on a stenotype machine, each letter appears in a fixed position on the paper. For this reason, multiple stenotype keys can be pressed at once, as if playing the piano.</p>
+        <p>The twenty-one letters appear as such on paper:</p>
+      </div>
+      <div class="steno"><div><span class="line">YTHKSAIOTK*INOIASKHTY</span></div></div>
+    </section>
+    <section>
+      <div lang="ja">
+        <h2>ボタンの打つ指の受け持ち</h2>
+      </div>
+      <div lang="en">
+        <h2>Finger Assignments</h2>
+      </div>
+      <p><img src="fingers.png" /></p>
+      <div lang="ja">
+        <p>ボタンを打つ構え：両手の小指は<code>Y</code>のボタンの上に、薬指は<code>T</code>と<code>H</code>のボタンの間に、中指は<code>K</code>と<code>S</code>のボタンの間に、人差し指は<code>A</code>と<code>I</code>と<code>O</code>のボタンの真ん中に；左手の親指は<code>T</code>と<code>K</code>のボタンの間に、右手の親指は<code>I</code>と<code>N</code>のボタンの間に置く。</p>
+        <p>各々の文字とボタンを打つ指の受け持ちを覚えよ。</p>
+        <p>ボタンは使い方の上から三つの群れに分かれている。</p>
+      </div>
+      <div lang="en">
+        <p>The pinky fingers on both hands are on the <code>Y</code> keys; the ring fingers between the <code>T</code> and <code>H</code> keys; the middle fingers between the <code>K</code> and <code>S</code> keys; the index fingers between the <code>A</code>, <code>I</code>, and <code>O</code> keys; the left thumb between the <code>T</code> and <code>K</code> keys, and the right thumb between the <code>I</code> and <code>N</code> keys.</p>
+        <p>Memorize the positions of each key, and the finger assigned to that key.</p>
+        <p>Keys are divided into three banks based on their position:</p>
+      </div>
+      <div class="steno">
+        <div><span class="line">YTHKSAIO             </span> 左の群 / left bank</div>
+        <div><span class="line">        TK IN        </span> 中の群 / center bank</div>
+        <div><span class="line">             OIASKHTY</span> 右の群 / right bank</div>
+      </div>
+      <div lang="ja">
+        <p><a href="#page-1">１ペイジのステノタイプのノート</a>をもう一度読め。各々の文字はそれぞれ決まった位置に出る。そのため、文字と文字の間は区々になっている。一行分が一打ちで打てる。全部のうち数は１０うち。</p>
+      </div>
+      <div lang="en">
+        <p>Read <a href="#page-1">the stenotype notes on page 1</a> again. Observe that each letter appears in a fixed position, so there are gaps between the letters. One line can be written in one stroke, so there are ten strokes in all.</p>
+      </div>
+    </section>
+    <section>
+      <div lang="ja">
+        <h2>ボタンを打つ指の格好</h2>
+        <p>指は熊手のように曲げる。爪は短く切っておき、指の先でボタンを打つようにする。</p>
+        <p>ステノタイプでは一本の指でボタンとボタンの間を打つことがある。ボタンとボタンの間を打つ場所は次の図の丸印のところである。</p>
+      </div>
+      <div lang="en">
+        <h2>Fingering Form</h2>
+        <p>Bend your fingers at a right angle. Keep your nails short, and use the tips of your fingers to press the keys.</p>
+        <p>On the stenotype machine, one finger may be used to hit multiple keys. See the circles in the diagram below for positions where you can hit between keys.</p>
+      </div>
+      <p><img src="multi-key.png" /></p>
+      <div lang="ja">
+        <p>ボタンは指先で軽く素早く打つ。打ったらすぐボタンから指を離す。ボタンを打つ場合は決して指先を見てはいけない。</p>
+        <p>正確に、楽に、すらすらと、軽く、調子よく打てるようになるまで練習せよ。</p>
+      </div>
+      <div lang="en">
+        <p>Press the keys lightly and quickly with your fingertips. Let go of the key immediately after you hit it. Never look at your fingertips when pressing a key.</p>
+        <p>Practice until you can hit each key accurately, easily, and smoothly.</p>
+      </div>
+    </section>
+    <section>
+      <div lang="ja">
+        <h2>正しい姿勢</h2>
+        <p>椅子と机の高さは、ボタンに指を置いた場合、手首と肘が水平になる様にする。</p>
+        <p>椅子に深く腰をかける。あしは軽く爪先で支える。背筋を真っ直ぐに伸ばし、腰から体を心持ち前に傾ける。</p>
+        <p>肩は自然いさげる。両肘は軽く体に付ける。</p>
+        <p>ボタンの打つには腕全体で打つ様な気持ちで打つ。</p>
+      </div>
+      <div lang="en">
+        <h2>Proper Posture</h2>
+        <p>The height of the chair and desk should be such that your wrist and elbow are level when you place your fingers on the keys.</p>
+        <p>Sit deeply in the chair. Support your legs with your toes. Keep your back straight, and lean your body forward from the waist.</p>
+        <p>Your shoulders should be relaxed. Place both elbows against your body.</p>
+        <p>Press the keys as if you were pushing down with your whole arm.</p>
+      </div>
+    </section>
+    <section>
+      <div lang="ja">
+        <h2>左の群で表す音節</h2>
+        <p>左の群では次の表の音節のどれか一つを表す。</p>
+        <blockquote>下のローマ字は最も簡単で素直な文部省訓令式綴り方である。音声学の立場から見てもヘボン式より合理的であり、国際的にも遥かに透が良い。</blockquote>
+      </div>
+      <div lang="en">
+        <h2>Left Bank Syllables</h2>
+        <p>With the left bank, you can write one of the syllables in the following table:</p>
+        <blockquote>The romaji system below is Kunrei-shiki, prescribed by the Ministry of Education, and is the simplest and most straightforward. It is more phonetically consistent than the Hepburn system, and is better accepted internationally.</blockquote>
+      </div>
+      <table class="romaji">
+        <tr>
+          <td>あ<i>a</i></td>
+          <td>い<i>i</i></td>
+          <td>う<i>u</i></td>
+          <td>え<i>e</i></td>
+          <td>お<i>o</i></td>
+          <td>や<i>ya</i></td>
+          <td>ゆ<i>yu</i></td>
+          <td>よ<i>yo</i></td>
+          <td></td>
+          <td>おう<i>ô</i></td>
+          <td>ゆう<i>yû</i></td>
+          <td>よう<i>yô</i></td>
+          <td>あい<i>ai</i></td>
+          <td>えい<i>ei</i></td>
+        </tr>
+        <tr>
+          <td>か<i>ka</i></td>
+          <td>き<i>ki</i></td>
+          <td>く<i>ku</i></td>
+          <td>け<i>ke</i></td>
+          <td>こ<i>ko</i></td>
+          <td>きゃ<i>kya</i></td>
+          <td>きゅ<i>kyu</i></td>
+          <td>きょ<i>kyo</i></td>
+          <td>くう<i>kû</i></td>
+          <td>こう<i>kô</i></td>
+          <td>きゅう<i>kyû</i></td>
+          <td>きょう<i>kyô</i></td>
+          <td>かい<i>kai</i></td>
+          <td>けい<i>kei</i></td>
+        </tr>
+        <tr>
+          <td>さ<i>sa</i></td>
+          <td>し<i>si</i></td>
+          <td>す<i>su</i></td>
+          <td>せ<i>se</i></td>
+          <td>そ<i>so</i></td>
+          <td>しゃ<i>sya</i></td>
+          <td>しゅ<i>syu</i></td>
+          <td>しょ<i>syo</i></td>
+          <td>すう<i>sû</i></td>
+          <td>そう<i>sô</i></td>
+          <td>しゅう<i>syû</i></td>
+          <td>しょう<i>syô</i></td>
+          <td>さい<i>sai</i></td>
+          <td>せい<i>sei</i></td>
+        </tr>
+        <tr>
+          <td>た<i>ta</i></td>
+          <td>ち<i>ti</i></td>
+          <td>つ<i>tu</i></td>
+          <td>て<i>te</i></td>
+          <td>と<i>to</i></td>
+          <td>ちゃ<i>tya</i></td>
+          <td>ちゅ<i>tyu</i></td>
+          <td>ちょ<i>tyo</i></td>
+          <td>つう<i>tû</i></td>
+          <td>とう<i>tô</i></td>
+          <td>ちゅう<i>tyû</i></td>
+          <td>ちょう<i>tyô</i></td>
+          <td>たい<i>tai</i></td>
+          <td>てい<i>tei</i></td>
+        </tr>
+        <tr>
+          <td>な<i>na</i></td>
+          <td>に<i>ni</i></td>
+          <td>ぬ<i>nu</i></td>
+          <td>ね<i>ne</i></td>
+          <td>の<i>no</i></td>
+          <td>にゃ<i>nya</i></td>
+          <td>にゅ<i>nyu</i></td>
+          <td>にょ<i>nyo</i></td>
+          <td>ぬう<i>nû</i></td>
+          <td>のう<i>nô</i></td>
+          <td>にゅう<i>nyû</i></td>
+          <td>にょう<i>nyô</i></td>
+          <td>ない<i>nai</i></td>
+          <td>ねい<i>nei</i></td>
+        </tr>
+        <tr>
+          <td>は<i>ha</i></td>
+          <td>ひ<i>hi</i></td>
+          <td>ふ<i>hu</i></td>
+          <td>へ<i>he</i></td>
+          <td>ほ<i>ho</i></td>
+          <td>ひゃ<i>hya</i></td>
+          <td>ひゅ<i>hyu</i></td>
+          <td>ひょ<i>hyo</i></td>
+          <td>ふう<i>hû</i></td>
+          <td>ほう<i>hô</i></td>
+          <td>ひゅう<i>hyû</i></td>
+          <td>ひょう<i>hyô</i></td>
+          <td>はい<i>hai</i></td>
+          <td>へい<i>hei</i></td>
+        </tr>
+        <tr>
+          <td>ま<i>ma</i></td>
+          <td>み<i>mi</i></td>
+          <td>む<i>mu</i></td>
+          <td>め<i>me</i></td>
+          <td>も<i>mo</i></td>
+          <td>みゃ<i>mya</i></td>
+          <td>みゅ<i>myu</i></td>
+          <td>みょ<i>myo</i></td>
+          <td></td>
+          <td>もう<i>mô</i></td>
+          <td></td>
+          <td>みょう<i>myô</i></td>
+          <td>まい<i>mai</i></td>
+          <td>めい<i>mei</i></td>
+        </tr>
+        <tr>
+          <td>ら<i>ra</i></td>
+          <td>り<i>ri</i></td>
+          <td>る<i>ru</i></td>
+          <td>れ<i>re</i></td>
+          <td>ろ<i>ro</i></td>
+          <td>りゃ<i>rya</i></td>
+          <td>りゅ<i>ryu</i></td>
+          <td>りょ<i>ryo</i></td>
+          <td>るう<i>rû</i></td>
+          <td>ろう<i>rô</i></td>
+          <td>りゅう<i>ryû</i></td>
+          <td>りょう<i>ryô</i></td>
+          <td>らい<i>rai</i></td>
+          <td>れい<i>rei</i></td>
+        </tr>
+        <tr>
+          <td>わ<i>wa</i></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>わい<i>wai</i></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>が<i>ga</i></td>
+          <td>ぎ<i>gi</i></td>
+          <td>ぐ<i>gu</i></td>
+          <td>げ<i>ge</i></td>
+          <td>ご<i>go</i></td>
+          <td>ぎゃ<i>gya</i></td>
+          <td>ぎゅ<i>gyu</i></td>
+          <td>ぎょ<i>gyo</i></td>
+          <td>ぐう<i>gû</i></td>
+          <td>ごう<i>gô</i></td>
+          <td>ぎゅう<i>gyû</i></td>
+          <td>ぎょう<i>gyô</i></td>
+          <td>がい<i>gai</i></td>
+          <td>げい<i>gei</i></td>
+        </tr>
+        <tr>
+          <td>ざ<i>za</i></td>
+          <td>じ<i>zi</i></td>
+          <td>ず<i>zu</i></td>
+          <td>ぜ<i>ze</i></td>
+          <td>ぞ<i>zo</i></td>
+          <td>じゃ<i>zya</i></td>
+          <td>じゅ<i>zyu</i></td>
+          <td>じょ<i>zyo</i></td>
+          <td>ずう<i>zû</i></td>
+          <td>ぞう<i>zô</i></td>
+          <td>じゅう<i>zyû</i></td>
+          <td>じょう<i>zyô</i></td>
+          <td>ざい<i>zai</i></td>
+          <td>ぜい<i>zei</i></td>
+        </tr>
+        <tr>
+          <td>だ<i>da</i></td>
+          <td></td>
+          <td></td>
+          <td>で<i>de</i></td>
+          <td>ど<i>do</i></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>どう<i>dô</i></td>
+          <td></td>
+          <td></td>
+          <td>だい<i>dai</i></td>
+          <td>でい<i>dei</i></td>
+        </tr>
+        <tr>
+          <td>ば<i>ba</i></td>
+          <td>び<i>bi</i></td>
+          <td>ぶ<i>bu</i></td>
+          <td>べ<i>be</i></td>
+          <td>ぼ<i>bo</i></td>
+          <td>びゃ<i>bya</i></td>
+          <td>びゅ<i>byu</i></td>
+          <td>びょ<i>byo</i></td>
+          <td></td>
+          <td>ぼう<i>bô</i></td>
+          <td></td>
+          <td>びょう<i>byô</i></td>
+          <td>ばい<i>bai</i></td>
+          <td>べい<i>bei</i></td>
+        </tr>
+        <tr>
+          <td>ぱ<i>pa</i></td>
+          <td>ぴ<i>pi</i></td>
+          <td>ぷ<i>pu</i></td>
+          <td>ぺ<i>pe</i></td>
+          <td>ぽ<i>po</i></td>
+          <td>ぴゃ<i>pya</i></td>
+          <td>ぴゅ<i>pyu</i></td>
+          <td>ぴょ<i>pyo</i></td>
+          <td></td>
+          <td>ぽう<i>pô</i></td>
+          <td></td>
+          <td>ぴょう<i>pyô</i></td>
+          <td>ぱい<i>pai</i></td>
+          <td>ぺい<i>pei</i></td>
+        </tr>
+        <tr>
+          <td colspan="4">ん<i>n</i></td>
+          <td colspan="4">っ<i>詰まる音 (gemination)</i></td>
+        </tr>
+      </table>
+
+      <div lang="ja">
+        <p><code>A</code>、<code>I</code>、<code>O</code>は母音を表す。</p>
+      </div>
+      <div lang="en">
+        <p>The <code>A</code>, <code>I</code>, and <code>O</code> keys represent vowels:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">     A               </span>あ <i>a</i></div>
+        <div><span class="line">      I              </span>い <i>i</i></div>
+        <div><span class="line">       O             </span>お <i>o</i></div>
+      </div>
+
+      <div lang="ja">
+        <p>ボタンの中にない文字は、他の文字を組み合わせて表す。</p>
+      </div>
+      <div lang="en">
+        <p>Sounds not represented by a single key can be written by combining other keys:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">      IO             </span>う <i>u</i></div>
+        <div><span class="line">     A O             </span>え <i>e</i></div>
+        <div><span class="line">     AI              </span>おう <i>ô</i>, あう <i>au</i></div>
+      </div>
+
+      <div lang="ja">
+        <p>ここで言う組み合わせは、他の文字を組み合わせて作った新しい文字と見て良い。例えば、<code>IO</code>は<i>u</i>（う）と読む一つの文字とみ、これを<i>io</i>（いお）とは読まない。</p>
+      </div>
+      <div lang="en">
+        <p>The combinations above can be considered new keys created by combining other keys. For example, <code>IO</code> is considered a single key pronounced <i>u</i> (う), not <i>io</i> (いお).</p>
+      </div>
+
+      <div lang="ja">
+        <p><code>T</code>、<code>H</code>、<code>K</code>、<code>S</code>は子音を表す。</p>
+      </div>
+      <div lang="en">
+        <p><code>T</code>, <code>H</code>, <code>K</code>, and <code>S</code> represent consonants:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   K                 </span>く <i>ku</i></div>
+        <div><span class="line"> T                   </span>つ <i>tu</i></div>
+        <div><span class="line">    S                </span>す <i>su</i></div>
+        <div><span class="line">  H                  </span>ふ <i>hu</i></div>
+      </div>
+
+      <div lang="ja">
+        <p>組み合わせ：</p>
+      </div>
+      <div lang="en">
+        <p>Combinations:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line"> T K                 </span>る <i>ru</i></div>
+        <div><span class="line">  H S                </span>ぬ <i>nu</i></div>
+        <div><span class="line">  HK                 </span>ぐ <i>gu</i></div>
+        <div><span class="line"> T  S                </span>ず <i>zu</i></div>
+        <div><span class="line">   KS                </span>む <i>mu</i></div>
+        <div><span class="line"> TH                  </span>ぶ <i>bu</i></div>
+        <div><span class="line"> THK                 </span>ぷ <i>pu</i></div>
+        <div><span class="line"> T KS                </span>(w)</div>
+        <div><span class="line"> THKS                </span>(d)</div>
+      </div>
+
+      <div lang="ja">
+        <p>子音と母音が組み合うと次のようになる。例：</p>
+      </div>
+      <div lang="en">
+        <p>Consonants and vowels can be combined, for example:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   K                 </span>く <i>ku</i></div>
+        <div><span class="line">   K A               </span>か <i>ka</i></div>
+        <div><span class="line">   K  I              </span>き <i>ki</i></div>
+        <div><span class="line">   K   O             </span>こ <i>ko</i></div>
+        <div><span class="line">   K  IO             </span>くう <i>kû</i></div>
+        <div><span class="line">   K A O             </span>け <i>ke</i></div>
+        <div><span class="line">   K AI              </span>こう <i>kô</i>, かう <i>kau</i></div>
+      </div>
+      <div lang="ja">
+        <p><i>ku</i>（く）は母音を付けないそのままの物。<i>kû</i>（くう）は母音の<code>IO</code>を組み合わせた物。</p>
+        <p><b>例外：</b>打ち方の上から、次の四つの音節だけは例外的な組み合わせになっている。</p>
+      </div>
+      <div lang="en">
+        <p><i>ku</i> (く) is the consonant on its own; <i>kû</i> (くう) uses the <code>IO</code> vowel chord.</p>
+        <p><b>Exceptions:</b> The above rule does not apply to the following four syllables:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line"> T KS                </span>み <i>mi</i></div>
+        <div><span class="line"> T KSA O             </span>び <i>bi</i></div>
+        <div><span class="line"> T KS  O             </span>ぴ <i>pi</i></div>
+        <div><span class="line"> THKS                </span>ど <i>do</i></div>
+      </div>
+      <div lang="ja">
+        <p><i>mi</i>（み）は子音文字の<i>w</i>を使う。
+          <i>bi</i>（び）は<i>w</i>に<code>AO</code>を組み合わせた物。
+          <i>pi</i>（ぴ）は<i>w</i>に<code>O</code>を組み合わせた物。
+          <i>do</i>（ど）は子音文字の<i>d</i>だけを使う。</p>
+        <p><code>Y</code>は「や」行、拗音、「〜あい」、「〜えい」列を表す。</p>
+      </div>
+      <div lang="en">
+        <p><i>mi</i> (み) uses the <i>w</i> consonant chord;
+          <i>bi</i> (び) is a combination of <i>w</i> and <code>AO</code>;
+          <i>pi</i> (ぴ) is a combination of <i>w</i> and <code>O</code>;
+          <i>do</i> (ど) uses only the <i>d</i> consonant chord.</p>
+        <p><code>Y</code> is used for the や-row, palatal sounds, and the <i>-ai</i> (〜あい) and <i>-ei</i> (えい) series:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y                    </span>よう <i>yô</i> *</div>
+        <div><span class="line">Y    A               </span>や <i>ya</i></div>
+        <div><span class="line">Y     I              </span>ゆ <i>yu</i> *</div>
+        <div><span class="line">Y      O             </span>よ <i>yo</i></div>
+        <div><span class="line">Y     IO             </span>ゆう <i>yû</i></div>
+        <div><span class="line">Y    AI              </span>あい <i>ai</i> *</div>
+        <div><span class="line">Y    A O             </span>えい <i>ei</i> *</div>
+      </div>
+
+      <div lang="ja">
+        <p><code>Y</code>が組み合うと母音に変化がある。星印（＊）の付いた組み合わせに注意せよ。</p>
+        <p>上の各々に子音が組み合うと次のようになる。例：</p>
+      </div>
+      <div lang="en">
+        <p><code>Y</code> changes the vowel when combined. Pay special attention to the chords marked with an asterisk (*).</p>
+        <p>Combining a consonant with each of the above results in the following:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y  K                 </span>きょう <i>kyô</i></div>
+        <div><span class="line">Y  K A               </span>きゃ <i>kya</i></div>
+        <div><span class="line">Y  K  I              </span>きゅ <i>kyu</i></div>
+        <div><span class="line">Y  K   O             </span>きょ <i>kyo</i></div>
+        <div><span class="line">Y  K  IO             </span>きゅう <i>kyû</i></div>
+        <div><span class="line">Y  K AI              </span>かい <i>kai</i></div>
+        <div><span class="line">Y  K A O             </span>けい <i>kei</i></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">YT                   </span>ちょう <i>tyô</i></div>
+        <div><span class="line">Y   S I              </span>しゅ <i>syu</i></div>
+        <div><span class="line">Y HK AI              </span>がい <i>gai</i></div>
+        <div><span class="line">YT  SA O             </span>ぜい <i>zei</i></div>
+        <div><span class="line">YT K AI              </span>らい <i>rai</i></div>
+        <div><span class="line">YTH  A O             </span>べい <i>bei</i></div>
+      </div>
+    </section>
+    <section>
+      <div lang="ja">
+        <h2>中の群で表す音節</h2>
+        <p>中の群の<code>T</code>、<code>K</code>、<code>I</code>、<code>N</code>は次のように７つの音節を表す。</p>
+      </div>
+      <div lang="en">
+        <h2>Center Bank Syllables</h2>
+        <p><code>T</code>, <code>K</code>, <code>I</code>, and <code>N</code> in the center bank represent the following seven syllables:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••   I         </span>〜い <i>-i</i></div>
+        <div><span class="line">•••••••• K           </span>〜く <i>-ku</i></div>
+        <div><span class="line">•••••••• K I         </span>〜き <i>-ki</i></div>
+        <div><span class="line">••••••••T            </span>〜つ <i>-tu</i></div>
+        <div><span class="line">••••••••T  I         </span>〜ち <i>-ti</i></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">••••••••    N        </span>〜ん <i>-n</i></div>
+        <div><span class="line">••••••••T   N        </span>〜っ</div>
+      </div>
+      <div lang="ja">
+        <p>左の群では：</p>
+      </div>
+      <div lang="en">
+        <p>Alternatively, on the left bank:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">     AIO             </span>〜ん <i>-n</i></div>
+        <div><span class="line"> T   AIO             </span>〜っ</div>
+      </div>
+    </section>
+    <section>
+      <div lang="ja">
+        <h2>右の群で表す音節</h2>
+        <p>右の群のボタンは数も文字も左の群と同じである。右のむれでの組み合わせは左のむと同じ；唯文字が向かい合いの位置になっている。</p>
+      </div>
+      <div lang="en">
+        <h2>Right Bank Syllables</h2>
+        <p>The right bank has the same keys as the left bank. The chords on the right side are identical to those on the left, except for positions being mirrored.</p>
+      </div>
+    </section>
+    <section id="gojuon">
+      <div lang="ja">
+        <h2>五十音</h2>
+      </div>
+      <div lang="en">
+        <h2>Syllable Table</h2>
+      </div>
+      <table class="gojuon">
+        <tr>
+          <td class="line reference">YTHKSAIO</td><td></td>
+          <td class="line">        </td><td></td>
+          <td class="line">        </td><td></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">     A  </td><td>あ <i>a</i></td>
+          <td class="line">  H SA  </td><td>な <i>na</i></td>
+          <td class="line"> T KSA  </td><td>わ <i>wa</i></td>
+          <td class="line"> TH  A  </td><td>ば <i>ba</i></td>
+        </tr>
+        <tr>
+          <td class="line">      I </td><td>い <i>i</i></td>
+          <td class="line">  H S I </td><td>に <i>ni</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line exception"> T KSA O</td><td>び <i>bi</i></td>
+        </tr>
+        <tr>
+          <td class="line exception">      IO</td><td>う <i>u</i></td>
+          <td class="line">  H S   </td><td>ぬ <i>nu</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line"> TH     </td><td>ぶ <i>bu</i></td>
+        </tr>
+        <tr>
+          <td class="line">     A O</td><td>え <i>e</i></td>
+          <td class="line">  H SA O</td><td>ね <i>ne</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line"> TH  A O</td><td>べ <i>be</i></td>
+        </tr>
+        <tr>
+          <td class="line">       O</td><td>お <i>o</i></td>
+          <td class="line">  H S  O</td><td>の <i>no</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line"> TH    O</td><td>ぼ <i>bo</i></td>
+        </tr>
+        <tr>
+          <td class="line">        </td><td></td>
+          <td class="line">  H S IO</td><td>ぬう <i>nû</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">     AI </td><td>おう <i>ô</i></td>
+          <td class="line">  H SAI </td><td>のう <i>nô</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line"> TH  AI </td><td>ぼう <i>bô</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y    AI </td><td>あい <i>ai</i></td>
+          <td class="line">Y H SAI </td><td>ない <i>nai</i></td>
+          <td class="line">YT KSAI </td><td>わい <i>wai</i></td>
+          <td class="line">YTH  AI </td><td>ばい <i>bai</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y    A O</td><td>えい <i>ei</i></td>
+          <td class="line">Y H SA O</td><td>ねい <i>nei</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">YTH  A O</td><td>べい <i>bei</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y    A  </td><td>や <i>ya</i></td>
+          <td class="line">Y H SA  </td><td>にゃ <i>nya</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">YTH  A  </td><td>びゃ <i>bya</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y     I </td><td>ゆ <i>yu</i></td>
+          <td class="line">Y H S I </td><td>にゅ <i>nyu</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line exception">YT KSA O</td><td>びゅ <i>byu</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y      O</td><td>よ <i>yo</i></td>
+          <td class="line">Y H S  O</td><td>にょ <i>nyo</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">YTH    O</td><td>びょ <i>byo</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y     IO</td><td>ゆう <i>yû</i></td>
+          <td class="line">Y H S IO</td><td>にゅう <i>nyû</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">Y       </td><td>よう <i>yô</i></td>
+          <td class="line">Y H S   </td><td>にょう <i>nyô</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">YTH     </td><td>びょう <i>byô</i></td>
+        </tr>
+
+        <tr>
+          <td class="line">   K A  </td><td>か <i>ka</i></td>
+          <td class="line">  H  A  </td><td>は <i>ha</i></td>
+          <td class="line">  HK A  </td><td>が <i>ga</i></td>
+          <td class="line"> THK A  </td><td>ぱ <i>pa</i></td>
+        </tr>
+        <tr>
+          <td class="line">   K  I </td><td>き <i>ki</i></td>
+          <td class="line">  H   I </td><td>ひ <i>hi</i></td>
+          <td class="line">  HK  I </td><td>ぎ <i>gi</i></td>
+          <td class="line exception"> T KS  O</td><td>ぴ <i>pi</i></td>
+        </tr>
+        <tr>
+          <td class="line">   K    </td><td>く <i>ku</i></td>
+          <td class="line">  H     </td><td>ふ <i>hu</i></td>
+          <td class="line">  HK    </td><td>ぐ <i>gu</i></td>
+          <td class="line"> THK    </td><td>ぷ <i>pu</i></td>
+        </tr>
+        <tr>
+          <td class="line">   K A O</td><td>け <i>ke</i></td>
+          <td class="line">  H  A O</td><td>へ <i>he</i></td>
+          <td class="line">  HK A O</td><td>げ <i>ge</i></td>
+          <td class="line"> THK A O</td><td>ぺ <i>pe</i></td>
+        </tr>
+        <tr>
+          <td class="line">   K   O</td><td>こ <i>ko</i></td>
+          <td class="line">  H    O</td><td>ほ <i>ho</i></td>
+          <td class="line">  HK   O</td><td>ご <i>go</i></td>
+          <td class="line"> THK   O</td><td>ぽ <i>po</i></td>
+        </tr>
+        <tr>
+          <td class="line">   K  IO</td><td>くう <i>kû</i></td>
+          <td class="line">  H   IO</td><td>ふう <i>hû</i></td>
+          <td class="line">  HK  IO</td><td>ぐう <i>gû</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">   K AI </td><td>こう <i>kô</i></td>
+          <td class="line">  H  AI </td><td>ほう <i>hô</i></td>
+          <td class="line">  HK AI </td><td>ごう <i>gô</i></td>
+          <td class="line"> THK AI </td><td>ぽう <i>pô</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y  K AI </td><td>かい <i>kai</i></td>
+          <td class="line">Y H  AI </td><td>はい <i>hai</i></td>
+          <td class="line">Y HK AI </td><td>がい <i>gai</i></td>
+          <td class="line">YTHK AI </td><td>ぱい <i>pai</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y  K A O</td><td>けい <i>kei</i></td>
+          <td class="line">Y H  A O</td><td>へい <i>hei</i></td>
+          <td class="line">Y HK A O</td><td>げい <i>gei</i></td>
+          <td class="line">YTHK A O</td><td>ぺい <i>pei</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y  K A  </td><td>きゃ <i>kya</i></td>
+          <td class="line">Y H  A  </td><td>ひゃ <i>hya</i></td>
+          <td class="line">Y HK A  </td><td>ぎゃ <i>gya</i></td>
+          <td class="line">YTHK A  </td><td>ぴゃ <i>pya</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y  K  I </td><td>きゅ <i>kyu</i></td>
+          <td class="line">Y H   I </td><td>ひゅ <i>hyu</i></td>
+          <td class="line">Y HK  I </td><td>ぎゅ <i>gyu</i></td>
+          <td class="line exception">YT KS  O</td><td>ぴゅ <i>pyu</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y  K   O</td><td>きょ <i>kyo</i></td>
+          <td class="line">Y H    O</td><td>ひょ <i>hyo</i></td>
+          <td class="line">Y HK   O</td><td>ぎょ <i>gyo</i></td>
+          <td class="line">YTHK   O</td><td>ぴょ <i>pyo</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y  K  IO</td><td>きゅう <i>kyû</i></td>
+          <td class="line">Y H   IO</td><td>ひゅう <i>hyû</i></td>
+          <td class="line">Y HK  IO</td><td>ぎゅう <i>gyû</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">Y  K    </td><td>きょう <i>kyô</i></td>
+          <td class="line">Y H     </td><td>ひょう <i>hyô</i></td>
+          <td class="line">Y HK    </td><td>ぎょう <i>gyô</i></td>
+          <td class="line">YTHK    </td><td>ぴょう <i>pyô</i></td>
+        </tr>
+
+        <tr>
+          <td class="line">    SA  </td><td>さ <i>sa</i></td>
+          <td class="line">   KSA  </td><td>ま <i>ma</i></td>
+          <td class="line"> T  SA  </td><td>ざ <i>za</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">    S I </td><td>し <i>si</i></td>
+          <td class="line exception"> T KS   </td><td>み <i>mi</i></td>
+          <td class="line"> T  S I </td><td>じ <i>zi</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">    S   </td><td>す <i>su</i></td>
+          <td class="line">   KS   </td><td>む <i>mu</i></td>
+          <td class="line"> T  S   </td><td>ず <i>zu</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">    SA O</td><td>せ <i>se</i></td>
+          <td class="line">   KSA O</td><td>め <i>me</i></td>
+          <td class="line"> T  SA O</td><td>ぜ <i>ze</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">    S  O</td><td>そ <i>so</i></td>
+          <td class="line">   KS  O</td><td>も <i>mo</i></td>
+          <td class="line"> T  S  O</td><td>ぞ <i>zo</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">    S IO</td><td>すう <i>sû</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line"> T  S IO</td><td>ずう <i>zû</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">    SAI </td><td>そう <i>sô</i></td>
+          <td class="line">   KSAI </td><td>もう <i>mô</i></td>
+          <td class="line"> T  SAI </td><td>ぞう <i>zô</i></td>
+          <td class="line">     AIO</td><td>ん <i>n</i></td>
+        </tr>
+        <tr>
+          <td class="line">Y   SAI </td><td>さい <i>sai</i></td>
+          <td class="line">Y  KSAI </td><td>まい <i>mai</i></td>
+          <td class="line">YT  SAI </td><td>ざい <i>zai</i></td>
+          <td class="line"> T   AIO</td><td>っ</td>
+        </tr>
+        <tr>
+          <td class="line">Y   SA O</td><td>せい <i>sei</i></td>
+          <td class="line">Y  KSA O</td><td>めい <i>mei</i></td>
+          <td class="line">YT  SA O</td><td>ぜい <i>zei</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">Y   SA  </td><td>しゃ <i>sya</i></td>
+          <td class="line">Y  KSA  </td><td>みゃ <i>mya</i></td>
+          <td class="line">YT  SA  </td><td>じゃ <i>zya</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">Y   S I </td><td>しゅ <i>syu</i></td>
+          <td class="line exception">YT KS   </td><td>みゅ <i>myu</i></td>
+          <td class="line">YT  S I </td><td>じゅ <i>zyu</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">Y   S  O</td><td>しょ <i>syo</i></td>
+          <td class="line">Y  KS  O</td><td>みょ <i>myo</i></td>
+          <td class="line">YT  S  O</td><td>じょ <i>zyo</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">Y   S IO</td><td>しゅう <i>syû</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">YT  S IO</td><td>じゅう <i>zyû</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">Y   S   </td><td>しょう <i>syô</i></td>
+          <td class="line">Y  KS   </td><td>みょう <i>myô</i></td>
+          <td class="line">YT  S   </td><td>じょう <i>zyô</i></td>
+          <td class="line reference">   TK IN</td><td></td>
+        </tr>
+
+        <tr>
+          <td class="line"> T   A  </td><td>た <i>ta</i></td>
+          <td class="line"> T K A  </td><td>ら <i>ra</i></td>
+          <td class="line"> THKSA  </td><td>だ <i>da</i></td>
+          <td class="line">      I </td><td>〜い <i>-i</i></td>
+        </tr>
+        <tr>
+          <td class="line"> T    I </td><td>ち <i>ti</i></td>
+          <td class="line"> T K  I </td><td>り <i>ri</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">    K I </td><td>〜き <i>-ki</i></td>
+        </tr>
+        <tr>
+          <td class="line"> T      </td><td>つ <i>tu</i></td>
+          <td class="line"> T K    </td><td>る <i>ru</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">    K   </td><td>〜く <i>-ku</i></td>
+        </tr>
+        <tr>
+          <td class="line"> T   A O</td><td>て <i>te</i></td>
+          <td class="line"> T K A O</td><td>れ <i>re</i></td>
+          <td class="line"> THKSA O</td><td>で <i>de</i></td>
+          <td class="line">   T  I </td><td>〜ち <i>-ti</i></td>
+        </tr>
+        <tr>
+          <td class="line"> T     O</td><td>と <i>to</i></td>
+          <td class="line"> T K   O</td><td>ろ <i>ro</i></td>
+          <td class="line exception"> THKS   </td><td>ど <i>do</i></td>
+          <td class="line">   T    </td><td>〜つ <i>-tu</i></td>
+        </tr>
+        <tr>
+          <td class="line"> T    IO</td><td>つう <i>tû</i></td>
+          <td class="line"> T K  IO</td><td>るう <i>rû</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">       N</td><td>〜ん <i>-n</i></td>
+        </tr>
+        <tr>
+          <td class="line"> T   AI </td><td>とう <i>tô</i></td>
+          <td class="line"> T K AI </td><td>ろう <i>rô</i></td>
+          <td class="line"> THKSAI </td><td>どう <i>dô</i></td>
+          <td class="line">   T   N</td><td>〜っ</td>
+        </tr>
+        <tr>
+          <td class="line">YT   AI </td><td>たい <i>tai</i></td>
+          <td class="line">YT K AI </td><td>らい <i>rai</i></td>
+          <td class="line">YTHKSAI </td><td>だい <i>dai</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">YT   A O</td><td>てい <i>tei</i></td>
+          <td class="line">YT K A O</td><td>れい <i>rei</i></td>
+          <td class="line">YTHKSA O</td><td>でい <i>dei</i></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">YT   A  </td><td>ちゃ <i>tya</i></td>
+          <td class="line">YT K A  </td><td>りゃ <i>rya</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">YT    I </td><td>ちゅ <i>tyu</i></td>
+          <td class="line">YT K  I </td><td>りゅ <i>ryu</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">YT     O</td><td>ちょ <i>tyo</i></td>
+          <td class="line">YT K   O</td><td>りょ <i>ryo</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">YT    IO</td><td>ちゅう <i>tyû</i></td>
+          <td class="line">YT K  IO</td><td>りょう <i>ryû</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">        </td><td></td>
+        </tr>
+        <tr>
+          <td class="line">YT      </td><td>ちょう <i>tyô</i></td>
+          <td class="line">YT K    </td><td>りょう <i>ryô</i></td>
+          <td class="line">        </td><td></td>
+          <td class="line">        </td><td></td>
+        </tr>
+      </table>
+
+      <div lang="ja">
+        <p>言葉の頭の音節は左の群を使う。</p>
+      </div>
+      <div lang="en">
+        <p>Use the left bank to write the first syllable of a word.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   <em>K  I</em>              </span><em>き</em></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">      <em>I</em>      O A K   </span><em>い</em>け</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"><em>Y    A</em>         ASK   </span><em>や</em>ま</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> <em>T   AI</em>          K  Y</span><em>とう</em>きょう</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"><em>Y  K</em>         O     T </span><em>きょう</em>と</div>
+      </div>
+
+      <div lang="ja">
+        <p>左の群の音節の次に、中の群で表すことの出来る音節が来る場合は、必ず中の群お使う。</p>
+      </div>
+      <div lang="en">
+        <p>If a syllable on the left bank is followed by a syllable that can be represented by the center bank, always use the center bank.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   KSA  <em>T</em>            </span>ま<em>つ</em></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> T       <em>K I</em>         </span>つ<em>き</em></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> TH    O    <em>N</em>        </span>ぼ<em>ん</em></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">    SA   <em>K</em>     A K T </span>さ<em>く</em>ら</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">YT      <em>T  I</em> OIA     </span>ちょう<em>ち</em>ん</div>
+      </div>
+
+      <div lang="ja">
+        <p>一打ちで打てない場合はさらに打ち加える。</p>
+      </div>
+      <div lang="en">
+        <p>If a word can't be written in one stroke, use additional strokes.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">    SA         A K   </span></div>
+        <div><span class="line">  H SA               </span>さかな</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">  HK   O       A  H  </span></div>
+        <div><span class="line">     AIO             </span>ごはん</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> T   A       O A  HT </span></div>
+        <div><span class="line"> T K                 </span>たべる</div>
+      </div>
+
+      <div lang="ja">
+        <p>一つの言葉は一つのまとまった形で表す。</p>
+      </div>
+      <div lang="en">
+        <p>Each word is written with one outline.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   KS  OT   NO     T </span>もっと</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">      IO       ASK   </span></div>
+        <div><span class="line">   K                 </span>うまく</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">  H SA       O A K T </span>なれ</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">YT     OT   NO     T </span>ちょっと</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">  HK A         ASK   </span></div>
+        <div><span class="line">     AIO             </span>がまん</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">    SA O     O      Y</span>せよ</div>
+      </div>
+
+      <div lang="ja">
+        <p>「が、の、に、を」などのような言葉は、前の言葉に含めた形で表す。</p>
+      </div>
+      <div lang="en">
+        <p>The words が, の, に, and を are included in the previous word.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y      O   I         </span><ruby><rb>良</rb><rt>よ</rt>い</ruby></div>
+        <div><span class="line">  H    O    N<em>O</em>       </span><ruby><rb>本</rb><rt>ほん</rt><em>を</em></ruby></div>
+        <div><span class="line">Y      O        SK   </span><ruby><rb>読</rb><rt>よ</rt>む</ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">  H  A       O A KH  </span></div>
+        <div><span class="line"> T KS          <em>A KH</em>  </span><ruby><rb>励</rb><rt>はげ</rt>み<em>が</em></ruby></div>
+        <div><span class="line"> THKSA O         K T </span><ruby><rb>出</rb><rt>で</rt>る</ruby></div>
+      </div>
+
+      <div lang="ja">
+        <p>「を、へ、か、や」などのような言葉だけを打つ場合は右の群を使う。</p>
+      </div>
+      <div lang="en">
+        <p>Always use the right bank when writing を, へ, か, and や.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">      I      O A     </span><ruby><rb>家</rb><rt>いえ</rt></ruby></div>
+        <div><span class="line">             <em>O</em>       </span><em>を</em></div>
+        <div><span class="line"> T   A       O A   T </span></div>
+        <div><span class="line"> T K                 </span><ruby><rb>建</rb><rt>た</rt>てる</ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> T   AI          K  Y</span><ruby><rb>東京</rb><rt>とうきょう</rt></ruby></div>
+        <div><span class="line">             <em>O A</em>     </span><em>へ</em></div>
+        <div><span class="line">      I  K           </span><ruby><rb>行</rb><rt>い</rt>く</ruby></div>
+      </div>
+
+      <!-- <div lang="ja"><h4>練習</h4></div>
+      <div lang="en"><h4>Exercise</h4></div> -->
+      <!-- 「〜あい」及び「〜えい」列は左または右の群だけで表す。 -->
+    </section>
+    <section id="repetition">
+      <div lang="ja">
+        <h2>重ね言葉の表し方</h2>
+        <p>中の群の<code>KN</code>は、左の群と右の群の音節が重なってできた言葉を示す印に使う。例：</p>
+      </div>
+      <div lang="en">
+        <h2>Expressing Repeated Words</h2>
+        <p>The <code>KN</code> chord in the center bank is used to repeat a word formed with the left and right banks. Example:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">      I      O   K T </span>いろ</div>
+        <div><span class="line">      I  <em>K  N</em>O   K T </span>いろいろ</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> THKSA      N        </span>だん</div>
+        <div><span class="line"> THKSA   <em>K  N</em>OIA     </span>だんだん</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">    S I  K  N  A  HT </span>しばしば</div>
+        <div><span class="line">      I  K  NO      Y</span>いよいよ</div>
+        <div><span class="line"> T KS  O K  N  A K   </span>ぴかぴか</div>
+      </div>
+
+      <div lang="ja">
+        <p>重なる言葉が濁る場合も、同じようにして表す。例：</p>
+      </div>
+      <div lang="en">
+        <p>Write repetition the same way even when the initial consonant becomes voiced. Example:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line"> T       K  N    K   </span>つくづく</div>
+        <div><span class="line">  H   I  K  NO     T </span>ひとびと</div>
+        <div><span class="line">   K     K  N I S H  </span>くにぐに</div>
+        <div><span class="line">    SA   K  NOIA     </span>さんざん</div>
+      </div>
+
+      <div lang="ja">
+        <p>次のような場合には左の群の<code>KAIO</code>、または右の群の<code>OIAK</code>を使う。例：</p>
+      </div>
+      <div lang="en">
+        <p>In the following cases, use <code>KAIO</code> from the left bank, or <code>OIAK</code> from the right bank:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   KS          A K   </span></div>
+        <div><span class="line">    S I      OIA K   </span>むかしむかし</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">  H   I        A K T </span></div>
+        <div><span class="line"> T K  I      OIA K   </span>ひらりひらり</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">       O   I O ASKHT </span></div>
+        <div><span class="line">   K AIO             </span>おいでおいで</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> T   A  T  I   A  HT </span></div>
+        <div><span class="line">   K AIO     O ASKHT </span>たちばたちばで</div>
+      </div>
+    </section>
+    <section id="briefs">
+      <div lang="ja">
+        <h2>略語</h2>
+        <p>打つてまを省くため、また速記のノートを読みやすくするため、ステノタイプでは略語を使う。略語の数は２００ほどある。</p>
+        <p>略語は、（１）略す言葉の形、（２）それらが日本語の中で使われる具合、（３）ステノタイプの上での略語の組み立て方などによって、いろいろな種類に分かれている。</p>
+        <p>略語１〜１８はステノタイプで使う略語の全てとそれらの仕組みについて述べた物である。略語の仕組みを理解するには、これまでのところをよく理解し、覚えていなければならない。</p>
+        <p>略語は普通の言葉とは違った形に組み立てられている。だから普通の言葉と略語とが紛れるようなことはない。略語を使うと、速記下ノートが返って読みやすくなるのはそのためである。</p>
+      </div>
+      <div lang="en">
+        <h2>Briefs</h2>
+        <p>Stenotype uses briefs to save time and make shorthand notes easier to read. There are approximately 200 briefs.</p>
+        <p>Briefs are classified under several categories, depending on (1) the form of the word being abbreviated; (2) how they are used in Japanese; and (3) how the briefs are written in steno.</p>
+        <p>Sections 1 through 18 describe all of the briefs used in stenotype. To understand how briefs work, you must be familiar with the theory principles we have learned so far.</p>
+        <p>Briefs are constructed differently from ordinary words, so there is no confusion between ordinary words and briefs, which makes shorthand notes easier to read.</p>
+      </div>
+    </section>
+    <section id="brief-1">
+      <div lang="ja">
+        <h2>略語１</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 1</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">        •• ••        </span></div>
+      </div>
+
+      <div lang="ja">
+        <p>左の群も右の群も使わないで、中の群の<code>T</code>、<code>K</code>、<code>I</code>、<code>N</code>だけを打つと、次のような略語になる。</p>
+      </div>
+      <div lang="en">
+        <p>Using the center bank keys <code>T</code>, <code>K</code>, <code>I</code>, and <code>N</code> without using the left or right bank results in the following briefs:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">        T            </span>に</div>
+        <div><span class="line">         K           </span>が</div>
+        <div><span class="line">        TK           </span>で</div>
+        <div><span class="line">           I         </span>は</div>
+        <div><span class="line">            N        </span>の</div>
+        <div><span class="line">           IN        </span>も</div>
+      </div>
+
+      <div lang="ja">
+        <p>使い方の例：太線のところを比べてみよ。</p>
+      </div>
+      <div lang="en">
+        <p>Usage Example: Compare the lines in bold.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">       O       A    Y</span><ruby><rb>親</rb><rt>おや</rt></ruby></div>
+        <div><span class="line">        <em>T</em>            </span><em>に</em></div>
+        <div><span class="line"> T             A   T </span></div>
+        <div><span class="line">     A O       A   T </span><ruby><rb>伝</rb><rt>つた</rt>えた</ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">       O   I  I S    </span></div>
+        <div><span class="line">      I              </span><ruby><rb>美味</rb><rt>おい</rt>しい</ruby></div>
+        <div><span class="line">       O       A    Y</span></div>
+        <div><span class="line"> <em>T</em>                   </span>お<ruby><rb>八</rb><rt>や</rt><em>つ</em></ruby></div>
+      </div>
+
+      <div lang="ja">
+        <p>左の群の「ん」（<code>AIO</code>）の音節と組み合う、<code>I</code>、<code>N</code>は「は、の、も」を表す。</p>
+      </div>
+      <div lang="en">
+        <p><code>I</code> and <code>N</code> can represent は, の, or も when combined with ん (<code>AIO</code>) in the left bank.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">      I T  I   A  HT </span></div>
+        <div><span class="line">     AIO   <em>I</em>         </span><ruby><rb>一番</rb><rt>いちばん</rt><em>は</em></ruby></div>
+        <div><span class="line">   K  I         SK T </span><ruby><rb>君</rb><rt>きみ</rt></ruby></div>
+        <div><span class="line">               ASKHT </span>だ</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">    S I     N     HT </span></div>
+        <div><span class="line">     AIO    <em>N</em>        </span><ruby><rb>新聞</rb><rt>しんぶん</rt><em>の</em></ruby></div>
+        <div><span class="line">   K  I       I S  T </span><ruby><rb>記事</rb><rt>きじ</rt></ruby></div>
+      </div>
+
+      <div lang="ja">
+        <p>略語の組み合わせ：中の群で表す「に、で」は「は、の、も」と組み合う。</p>
+      </div>
+      <div lang="en">
+        <p>Combinations: You can combine に or で with は, の, or も using the center bank:</p>
+      </div>
+      <div class="steno">
+        <div><span class="line">        T  I         </span>には</div>
+        <div><span class="line">        T   N        </span>にも</div>
+        <div><span class="line">        TK I         </span>では</div>
+        <div><span class="line">        TK IN        </span>でも</div>
+        <div><span class="line">        TK  N        </span>での</div>
+      </div>
+    </section>
+    <section id="brief-2">
+      <div lang="ja">
+        <h2>略語２</h2>
+        <p>左の群、または右の群において、これまでに述べた組み合わせにない組み合わせわ次のような略語になる。</p>
+      </div>
+      <div lang="en">
+        <h2>Brief 2</h2>
+        <p>Unused chords on the left and right banks are assigned to briefs as follows:</p>
+      </div>
+      <div class="steno">
+        <div><span class="line">YT KSA               </span>わけ</div>
+        <div><span class="line">YTHKSA               </span>だけ</div>
+        <div><span class="line">YTHKS  O             </span>など</div>
+        <div><span class="line"> THKS  O             </span>ども</div>
+        <div><span class="line"> T KSAI              </span>もし</div>
+      </div>
+
+      <div lang="ja">
+        <p>略語の組み合わせ：この略語の後に「は、の、も」が来る場合は、中の群の<code>I</code>、<code>N</code>を組み合わせて、次のようにして表す。</p>
+      </div>
+      <div lang="en">
+        <p>Combinations: You can combine any of the briefs above with は, の, or も using the center bank:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">YT KSA     I         </span>わけは</div>
+        <div><span class="line">YT KSA      N        </span>わけの</div>
+        <div><span class="line">YT KSA     IN        </span>わけも</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">YTHKSA     I         </span>だけは</div>
+        <div><span class="line">YTHKSA      N        </span>だけの</div>
+        <div><span class="line">YTHKSA     IN        </span>だけも</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">YTHKS  O   I         </span>などは</div>
+        <div><span class="line">YTHKS  O    N        </span>などの</div>
+        <div><span class="line">YTHKS  O   IN        </span>なども</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> THKS  O   I         </span>どもは</div>
+        <div><span class="line"> THKS  O    N        </span>どもの</div>
+        <div><span class="line"> THKS  O   IN        </span>どもも</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> T KSAI    IN        </span>もしも</div>
+      </div>
+
+      <div lang="ja">
+        <p>右の群も同じように使う。</p>
+      </div>
+      <div lang="en">
+        <p>Similarly for the right bank:</p>
+      </div>
+      <div class="steno">
+        <div><span class="line">               ASK TY</span>わけ</div>
+        <div><span class="line">               ASKHTY</span>だけ</div>
+        <div><span class="line">             O  SKHTY</span>など</div>
+        <div><span class="line">             O  SKHT </span>ども</div>
+        <div><span class="line">              IASK T </span>もし</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">           I   ASK TY</span>わけは</div>
+        <div><span class="line">            N  ASK TY</span>わけの</div>
+        <div><span class="line">           IN  ASK TY</span>わけも</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">           I   ASKHTY</span>だけは</div>
+        <div><span class="line">            N  ASKHTY</span>だけの</div>
+        <div><span class="line">           IN  ASKHTY</span>だけも</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">           I O  SKHTY</span>などは</div>
+        <div><span class="line">            NO  SKHTY</span>などの</div>
+        <div><span class="line">           INO  SKHTY</span>なども</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">           I O  SKHT </span>どもは</div>
+        <div><span class="line">            NO  SKHT </span>どもの</div>
+        <div><span class="line">           INO  SKHT </span>どもも</div>
+      </div>
+    </section>
+    <section id="brief-3">
+      <div lang="ja">
+        <h2>略語３</h2>
+        <p>この略語は<code>AIO</code>が組み合った物である。</p>
+      </div>
+      <div lang="en">
+        <h2>Brief 3</h2>
+        <p>The following briefs use the <code>AIO</code> chord:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   KSAIO             </span>まで</div>
+        <div><span class="line"> T K AIO             </span>から</div>
+        <div><span class="line">YT K AIO             </span>より</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">    SAIO             </span>して</div>
+        <div><span class="line"> T  SAIO             </span>（し）まして</div>
+        <div><span class="line">YT  SAIO             </span>として</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">Y  KSAIO             </span>持って</div>
+        <div><span class="line">YTHKSAIO             </span>なって</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">  H  AIO             </span>ほど</div>
+        <div><span class="line">Y H  AIO             </span>ほか</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">  HK AIO             </span>かぎり</div>
+        <div><span class="line"> TH  AIO             </span>ばかり</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">Y  K AIO             </span>くらい</div>
+        <div><span class="line">Y HK AIO             </span>ぐらい</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">YTH  AIO             </span><ruby><rb>場合</rb><rt>ばあい</rt></ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> T KSAIO             </span>こと</div>
+      </div>
+
+      <div lang="ja">
+        <p>略語の組み合わせ：この略語の後に「は、の、も」が来る場合は次のようにして表す。（中の群の<code>I</code>、<code>N</code>が「は、の、も」を表している。）</p>
+        <p>略語：（右の群）</p>
+      </div>
+      <div lang="en">
+        <p>The briefs above can also be combined with は, の, or も using the <code>I</code> and <code>N</code> keys in the center bank.</p>
+        <p>Right bank briefs:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">             OIASK   </span>まで</div>
+        <div><span class="line">             OIA K T </span>から</div>
+        <div><span class="line">             OIA K TY</span>より</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">             OIAS    </span>して</div>
+        <div><span class="line">             OIAS  T </span>（し）まして</div>
+        <div><span class="line">             OIAS  TY</span>として</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">             OIASK  Y</span>持って</div>
+        <div><span class="line">             OIASKHTY</span>なって</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">             OIA  H  </span>ほど</div>
+        <div><span class="line">             OIA  H Y</span>ほか</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">             OIA KH  </span>かぎり</div>
+        <div><span class="line">             OIA  HT </span>ばかり</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">             OIA K  Y</span>くらい</div>
+        <div><span class="line">             OIA KH Y</span>ぐらい</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">             OIA  HTY</span><ruby><rb>場合</rb><rt>ばあい</rt></ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">             OIASK T </span>こと</div>
+      </div>
+
+      <div lang="ja">
+        <p>右の群で略語２または３を表す場合、中の群の<code>IN</code>は右の群の略語の後に来る「は、の、も」を表す。</p>
+        <p>略語：この略語は右の群だけ使う。</p>
+      </div>
+      <div lang="en">
+        <p>When combining one of the right bank briefs above with <code>IN</code> from the center bank, the center bank represents one of は, の, or も that comes <i>after</i> the brief.</p>
+        <p>The following briefs are only available on the right bank:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">           I OIA K   </span>かは</div>
+        <div><span class="line">           I OIA    Y</span>へは</div>
+        <div><span class="line">           I OIA   TY</span>ては</div>
+        <div><span class="line">           I OIAS  T </span>とは</div>
+        <div><span class="line">           I OIAS H  </span>のは</div>
+        <div><span class="line">           I OIAS H Y</span>には</div>
+        <div><span class="line">           I OIASKHT </span>では</div>
+      </div>
+      <div lang="ja">
+        <p>中の群の<code>I</code>が「は」を表している。</p>
+        <p>略語の組み合わせ：</p>
+      </div>
+      <div lang="en">
+        <p>The <code>I</code> key from the center bank represents は in this case.</p>
+        <p>Combinations:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">            NOIA K   </span>かの</div>
+        <div><span class="line">           INOIA K   </span>かも</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">            NOIA    Y</span>への</div>
+        <div><span class="line">           INOIA    Y</span>へも</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">            NOIA   TY</span>ての</div>
+        <div><span class="line">           INOIA   TY</span>ても</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">            NOIAS  T </span>との</div>
+        <div><span class="line">           INOIAS  T </span>とも</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">           INOIAS H  </span>のも</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">           INOIAS H Y</span>にも</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">            NOIASKHT </span>での</div>
+        <div><span class="line">           INOIASKHT </span>でも</div>
+      </div>
+    </section>
+    <section id="brief-4-1">
+      <div lang="ja">
+        <h2>略語４の（１）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-1</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••TK           </span></div>
+        <div><span class="line">           IN••••••••</span></div>
+      </div>
+
+      <div lang="ja">
+        <p>この略語は左の群の音節と中の群の<code>TK</code>、または右の群の音節と中の群の<code>IN</code>が組み合った物。</p>
+      </div>
+      <div lang="en">
+        <p>This set of briefs combines syllables from the left bank with <code>TK</code> from the center bank, or syllables from the right bank with <code>IN</code> from the center bank.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">     A  TK           </span>（ので）ある</div>
+        <div><span class="line">      I TK           </span>いる</div>
+        <div><span class="line">       OTK           </span>おる</div>
+        <div><span class="line">    S   TK           </span>する</div>
+        <div><span class="line">   K    TK           </span>くる</div>
+        <div><span class="line">  H     TK           </span>ふる</div>
+        <div><span class="line"> T  S   TK           </span>（ん）ずる</div>
+        <div><span class="line">     A OTK           </span>える</div>
+        <div><span class="line">    SA OTK           </span>せる</div>
+        <div><span class="line">   K A OTK           </span>ける</div>
+        <div><span class="line">   KSA OTK           </span>める</div>
+        <div><span class="line"> T K A OTK           </span>れる</div>
+        <div><span class="line"> T KS   TK           </span>みる</div>
+        <div><span class="line">Y      OTK           </span>よる</div>
+        <div><span class="line"> T  SA  TK           </span>ざる</div>
+      </div>
+      <div lang="ja">
+        <p><code>TK</code>、<code>IN</code>と結びつく左も群または右の群は略す言葉と最も関係のある音節ー普通略す言葉の頭の音節ーを持って組み当ててある。</p>
+        <p>この場合<code>TK</code>または<code>IN</code>はこの略語を示す印の役目をしている。</p>
+        <p>右の群も同じように使う。</p>
+      </div>
+      <div lang="en">
+        <p>The briefs above use the syllable most related to the word being abbreviated, which is usually the first syllable of the word.</p>
+        <p>In this case, <code>TK</code> or <code>IN</code> is used to indicate the abbreviation.</p>
+        <p>The right bank briefs are constructed the same:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">           IN  A     </span>（ので）ある</div>
+        <div><span class="line">           IN I      </span>いる</div>
+        <div><span class="line">           INO       </span>おる</div>
+        <div><span class="line">           IN   S    </span>する</div>
+        <div><span class="line">           IN    K   </span>くる</div>
+        <div><span class="line">           IN     H  </span>ふる</div>
+        <div><span class="line">           IN   S  T </span>（ん）ずる</div>
+        <div><span class="line">           INO A     </span>える</div>
+        <div><span class="line">           INO AS    </span>せる</div>
+        <div><span class="line">           INO A K   </span>ける</div>
+        <div><span class="line">           INO ASK   </span>める</div>
+        <div><span class="line">           INO A K T </span>れる</div>
+        <div><span class="line">           IN   SK T </span>みる</div>
+        <div><span class="line">           INO      Y</span>よる</div>
+        <div><span class="line">           IN  AS  T </span>ざる</div>
+      </div>
+
+      <div lang="ja">
+        <p>略語もいみに関係なく、その音を表す。</p>
+      </div>
+      <div lang="en">
+        <p>The briefs represent sound, regardless of meaning:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line"> T KS   T  I O       </span><ruby><rb>道</rb><rt>みち</rt>を</ruby></div>
+        <div><span class="line">     <em>A  TK</em>       K   </span><ruby><rb><em>歩</em></rb><rt><em>ある</em></rt>く</ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">   KSA       O     T </span><ruby><rb>的</rb><rt>まと</rt></ruby></div>
+        <div><span class="line">             O       </span>を</div>
+        <div><span class="line">      <em>I TK</em>           </span><ruby><rb><em>射</em></rb><rt><em>い</em></rt><em>る</em></ruby></div>
+      </div>
+
+      <div lang="ja">
+        <p>これまでに述べた略語１、２、３及び略語４は他の音節または他の略語と組み合う。</p>
+      </div>
+      <div lang="en">
+        <p>Briefs 1, 2, 3, and 4 may be combined with other syllables or briefs.</p>
+      </div>
+    </section>
+    <section id="brief-4-2">
+      <div lang="ja">
+        <h2>略語４の（２）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-2</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y    AI TK           </span><ruby><rb>間</rb><rt>あいだ</rt></ruby></div>
+        <div><span class="line">      IOTK           </span><ruby><rb>上</rb><rt>うえ</rt></ruby></div>
+        <div><span class="line"> T     OTK           </span><ruby><rb>所</rb><rt>ところ</rt></ruby></div>
+        <div><span class="line"> T      TK           </span><ruby><rb>次</rb><rt>つぎ</rt></ruby></div>
+        <div><span class="line">  H   I TK           </span><ruby><rb>人</rb><rt>ひと</rt></ruby></div>
+        <div><span class="line"> T KSA  TK           </span><ruby><rb>私</rb><rt>わたくし</rt></ruby></div>
+        <div><span class="line">   KS  OTK           </span><ruby><rb>物</rb><rt>もの</rt></ruby></div>
+        <div><span class="line"> T   A  TK           </span>たら</div>
+        <div><span class="line">  H SA  TK           </span>なら</div>
+        <div><span class="line">    SA  TK           </span>され</div>
+        <div><span class="line"> T K A  TK           </span>られ</div>
+        <div><span class="line">   K   OTK           </span>これ</div>
+        <div><span class="line">    S  OTK           </span>それ</div>
+        <div><span class="line"> THKS   TK           </span>どこ</div>
+        <div><span class="line"> THKSA  TK           </span>だろう</div>
+        <div><span class="line"> T   AI TK           </span>とおり</div>
+        <div><span class="line"> THKSAI TK           </span>どおり</div>
+        <div><span class="line"> THKSA OTK           </span>です</div>
+        <div><span class="line">   KSAI TK           </span><ruby><rb>申</rb><rt>もう</rt></ruby>し<ruby><rb>上</rb><rt>あ</rt>げる</ruby></div>
+        <div><span class="line">  HK   OTK           </span>（ので）ござい（ます）</div>
+        <div><span class="line">   K A  TK           </span>かた</div>
+        <div><span class="line">   K  I TK           </span>きり</div>
+        <div><span class="line">    S I TK           </span>しか</div>
+        <div><span class="line">  H  A  TK           </span>はな</div>
+        <div><span class="line"> T   A OTK           </span><ruby><rb>的</rb><rt>てき</rt></ruby></div>
+        <div><span class="line">  H SA OTK           </span>めば</div>
+        <div><span class="line">   KSA  TK           </span>（し）ます</div>
+        <div><span class="line"> T  S I TK           </span>（ん）じて</div>
+        <div><span class="line"> TH  A OTK           </span>（す）べく</div>
+        <div><span class="line">  H S  OTK           </span>ので</div>
+      </div>
+      <div lang="ja">
+        <p>左の群の略語と組み合う<code>I</code>、<code>N</code>は「は、の、も」を表す。</p>
+      </div>
+      <div lang="en">
+        <p>These briefs can be combined with <code>I</code> and <code>N</code> to express は, の, or も.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line"> <em>T      TK</em> I         </span><ruby><rb><em>次</em></rb><rt><em>つぎ</em></rt></ruby>は</div>
+        <div><span class="line">     A         AS H  </span></div>
+        <div><span class="line"> T   A       O  S H  </span>あなたの</div>
+        <div><span class="line"> TH  A      N  ASKHT </span><ruby><rb>番</rb><rt>ばん</rt>だ</ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">   <em>K   OTK</em> IN        </span><em>これ</em>も</div>
+        <div><span class="line">   K  I         SK T </span><ruby><rb>君</rb><rt>きみ</rt></ruby></div>
+        <div><span class="line">            N        </span>の</div>
+        <div><span class="line">  H    O    N  ASKHT </span><ruby><rb>本</rb><rt>ほん</rt></ruby>だ</div>
+      </div>
+    </section>
+    <section id="brief-4-3">
+      <div lang="ja">
+        <h2>略語４の（３）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-3</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">  HK A  TK           </span>（し）ながら</div>
+      </div>
+    </section>
+    <section id="brief-4-4">
+      <div lang="ja">
+        <h2>略語４の（４）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-4</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line"> T K  I TK           </span>（ので）あり</div>
+        <div><span class="line"> T K AI TK           </span>（ので）あろう</div>
+        <div><span class="line"> T K   OTK           </span>ころ</div>
+        <div><span class="line"> T KSA OTK           </span>たび</div>
+        <div><span class="line"> TH  A  TK           </span>けば</div>
+        <div><span class="line">Y   S   TK           </span>でしょう</div>
+        <div><span class="line">YT  S   TK           </span><ruby><rb>以上</rb><rt>いじょう</rt></ruby></div>
+        <div><span class="line">YT K AI TK           </span><ruby><rb>以来</rb><rt>いらい</rt></ruby></div>
+        <div><span class="line">Y HK AI TK           </span><ruby><rb>以外</rb><rt>いがい</rt></ruby></div>
+        <div><span class="line">Y   SAI TK           </span>なさい</div>
+        <div><span class="line">Y     IOTK           </span>と<ruby><rb>言</rb><rt>い</rt></ruby>う</div>
+      </div>
+    </section>
+    <section id="brief-4-5">
+      <div lang="ja">
+        <h2>略語４の（５）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-5</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y  K AI TK           </span><ruby><rb>以下</rb><rt>いか</rt></ruby></div>
+        <div><span class="line">YT   AI TK           </span>いた</div>
+        <div><span class="line">Y  KSAI TK           </span><ruby><rb>今</rb><rt>いま</rt></ruby></div>
+      </div>
+    </section>
+    <section id="brief-4-6">
+      <div lang="ja">
+        <h2>略語４の（６）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-6</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y  K   OTK           </span>ここ</div>
+        <div><span class="line">Y   S  OTK           </span>そこ</div>
+        <div><span class="line">Y   SA  TK           </span>させ</div>
+        <div><span class="line">YT   A  TK           </span>ため</div>
+        <div><span class="line">Y H  A  TK           </span>はや</div>
+        <div><span class="line">Y  K A OTK           </span>けれ（ば）</div>
+        <div><span class="line">YTH  A OTK           </span>（す）べき</div>
+        <div><span class="line">YT     OTK           </span>とり</div>
+        <div><span class="line">Y H S  OTK           </span>のみ</div>
+        <div><span class="line">Y  KS  OTK           </span>もと</div>
+      </div>
+    </section>
+    <section id="brief-4-7">
+      <div lang="ja">
+        <h2>略語４の（７）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-7</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y     I TK           </span>行った</div>
+        <div><span class="line">Y    A  TK           </span>（ので）あった</div>
+        <div><span class="line">Y  K A  TK           </span>かった</div>
+        <div><span class="line">Y H SA  TK           </span>なった</div>
+        <div><span class="line">Y  K  I TK           </span>きた</div>
+        <div><span class="line">Y   S I TK           </span>した</div>
+        <div><span class="line">YT  S I TK           </span>（ん）じた</div>
+        <div><span class="line">YT KS   TK           </span>みた</div>
+        <div><span class="line">YT K A OTK           </span>れた</div>
+        <div><span class="line">Y  KSA  TK           </span>（し）ました</div>
+        <div><span class="line">YTHKSA OTK           </span>でした</div>
+      </div>
+    </section>
+    <section id="brief-4-8">
+      <div lang="ja">
+        <h2>略語４の（８）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-8</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y  K    TK           </span>かろう</div>
+        <div><span class="line">YT      TK           </span>たろう</div>
+        <div><span class="line">Y H S   TK           </span>なろう</div>
+      </div>
+    </section>
+    <section id="brief-4-9">
+      <div lang="ja">
+        <h2>略語４の（９）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-9</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y  KS   TK           </span>（し）ましょう</div>
+      </div>
+    </section>
+    <section id="brief-4-10">
+      <div lang="ja">
+        <h2>略語４の（１０）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-10</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y    A OTK           </span>（ので）あります</div>
+        <div><span class="line">Y       TK           </span><ruby><rb>致</rb><rt>いた</rt>す</ruby></div>
+        <div><span class="line">     AI TK           </span><ruby><rb>思</rb><rt>おも</rt>う</ruby></div>
+        <div><span class="line">   K AI TK           </span><ruby><rb>行</rb><rt>おこな</rt>う</ruby></div>
+        <div><span class="line">   K  IOTK           </span>くださる</ruby></div>
+        <div><span class="line">YTHKS   TK           </span><ruby><rb>出来</rb><rt>でき</rt>る</ruby></div>
+      </div>
+
+      <div lang="ja">
+        <p>後に来る言葉によって、略語が文法的に変化する場合がある。</p>
+      </div>
+      <div lang="en">
+        <p>Briefs may also be conjugated depending on the following word:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">    S I T    O A K TY</span><ruby><rb>失礼</rb><rt>しつれい</rt></ruby></div>
+        <div><span class="line">  HK A  TK           </span>ながら</div>
+        <div><span class="line">       O   IN  A  H  </span></div>
+        <div><span class="line">    S I      O  S H  </span>お<ruby><rb>話</rb><rt>はなし</rt></ruby>の</div>
+        <div><span class="line">       O       AS  TY</span></div>
+        <div><span class="line">   KSA       O       </span>お<ruby><rb>邪魔</rb><rt>じゃま</rt>を</ruby></div>
+        <div><span class="line">Y       TK <em>IN  ASK</em>   </span><ruby><rb>致</rb><rt>いた</rt><em>します</em></ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">     A         AS H  </span></div>
+        <div><span class="line"> T   A         ASK T </span>あなたは</div>
+        <div><span class="line">    S  O    N  AS H  </span>そんな</div>
+        <div><span class="line">        T            </span>に</div>
+        <div><span class="line">Y H  A  TK       K   </span><ruby><rb>早</rb><rt>はや</rt>く</ruby></div>
+        <div><span class="line">YTHKS   TK <em>IN  ASK  Y</em></span><ruby><rb>出来</rb><rt>でき</rt><em>ました</em></ruby></div>
+        <div><span class="line">               A K   </span>か</div>
+      </div>
+    </section>
+    <section id="brief-4-11">
+      <div lang="ja">
+        <h2>略語４の（１１）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-11</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line"> T    I TK           </span>たり</div>
+        <div><span class="line">  H S I TK           </span>なり</div>
+        <div><span class="line"> T    IOTK           </span>たる</div>
+        <div><span class="line">  H S   TK           </span>なる</div>
+      </div>
+    </section>
+    <section id="brief-4-12">
+      <div lang="ja">
+        <h2>略語４の（１２）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-12</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">  H   IOTK           </span>はず</div>
+        <div><span class="line">  H S IOTK           </span>なく</div>
+        <div><span class="line">    S IOTK           </span>しく</div>
+        <div><span class="line">Y   S IOTK           </span>しい</div>
+        <div><span class="line">Y  K  IOTK           </span>ください</div>
+      </div>
+    </section>
+    <section id="brief-4-13">
+      <div lang="ja">
+        <h2>略語４の（１３）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-13</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y H     TK           </span>ような</div>
+        <div><span class="line">Y H   I TK           </span>ように</div>
+        <div><span class="line">YTH     TK           </span><ruby><rb>的</rb><rt>てき</rt>な</ruby></div>
+        <div><span class="line">YT KSA OTK           </span><ruby><rb>的</rb><rt>てき</rt>に</ruby></div>
+      </div>
+    </section>
+    <section id="brief-4-14">
+      <div lang="ja">
+        <h2>略語４の（１４）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-14</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y H S I TK           </span>なかった</div>
+        <div><span class="line">YT   A OTK           </span>れて</div>
+        <div><span class="line">  H  A OTK           </span>さえ</div>
+        <div><span class="line">Y   SA OTK           </span>しめ</div>
+        <div><span class="line">Y  KSA OTK           </span><ruby><rb>前</rb><rt>まえ</rt></ruby></div>
+        <div><span class="line">Y H    OTK           </span><ruby><rb>後</rb><rt>あと</rt></ruby></div>
+        <div><span class="line">Y H SAI TK           </span><ruby><rb>中</rb><rt>なか</rt></ruby></div>
+        <div><span class="line">YT    I TK           </span>たち</div>
+        <div><span class="line">YT    IOTK           </span>うち</div>
+        <div><span class="line">Y H S IOTK           </span><ruby><rb>何</rb><rt>なに</rt></ruby></div>
+        <div><span class="line">YT K A  TK           </span>れば</div>
+        <div><span class="line">Y H SA OTK           </span>（し）なければ</div>
+        <div><span class="line">  H SAI TK           </span>ならない</div>
+        <div><span class="line">YTHKSAI TK           </span>出来ない</div>
+        <div><span class="line">    SAI TK           </span>さん</div>
+        <div><span class="line">  HK    TK           </span>ございません</div>
+        <div><span class="line">   KS   TK           </span>（し）ません</div>
+      </div>
+    </section>
+    <section id="brief-4-15">
+      <div lang="ja">
+        <h2>略語４の（１５）</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 4-15</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">     AIOTK           </span>ありません</div>
+        <div><span class="line"> T   AIOTK           </span><ruby><rb>時</rb><rt>とき</rt></ruby></div>
+        <div><span class="line"> T  SAIOTK           </span>とも</div>
+      </div>
+    </section>
+    <section id="brief-5">
+      <div lang="ja">
+        <h2>略語５</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 5</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">     A           K T </span>あらゆる</div>
+        <div><span class="line">      I          K T </span>いわゆる</div>
+        <div><span class="line">    S I      O A   T </span>したがって</ruby></div>
+      </div>
+
+      <div lang="ja">
+        <p>使い方の例：太字の所を比べて見よ。</p>
+      </div>
+      <div lang="en">
+        <p>Usage example: Compare the lines in bold.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">     <em>A           K T</em> </span><em>あらゆる</em></div>
+        <div><span class="line">  H   I TK     A KH  </span><ruby><rb>人</rb><rt>ひと</rt></ruby>が</div>
+        <div><span class="line">    SAI      O ASKHT </span>そうで</div>
+        <div><span class="line">     <em>A  TK</em>           </span><em>ある</em></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">      <em>I          K T</em> </span><em>いわゆる</em></div>
+        <div><span class="line">      <em>I TK</em>   O       </span><em>いる</em>を</div>
+        <div><span class="line">  H  A         A K   </span></div>
+        <div><span class="line"> T   AIO     O A   T </span><ruby><rb>計</rb><rt>はか</rt></ruby>って</div>
+        <div><span class="line">      I         S  T </span></div>
+        <div><span class="line"> T K         O       </span><ruby><rb>出</rb><rt>いず</rt></ruby>るを</div>
+        <div><span class="line">Y   SA O        S    </span><ruby><rb>制</rb><rt>せい</rt></ruby>す</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">    <em>S I      O A   T</em> </span><em>したがって</em></div>
+        <div><span class="line">    S  O    N  AS H  </span>そんな</div>
+        <div><span class="line"> T KSAIO             </span>ことを</div>
+        <div><span class="line">    <em>SAIO</em>   I         </span><em>して</em>は</div>
+        <div><span class="line">      I      O A K   </span></div>
+        <div><span class="line">Y H SAI              </span>いけない</div>
+      </div>
+    </section>
+    <section id="brief-6">
+      <div lang="ja">
+        <h2>略語６</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 6</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">     AI      O ASK T </span><ruby><rb>及</rb><rt>およ</rt>び</ruby></div>
+      </div>
+    </section>
+    <section id="brief-7">
+      <div lang="ja">
+        <h2>略語７</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 7</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">•••••A     I         </span></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">     A     I         </span>あるいは</div>
+        <div><span class="line">   KSA     I         </span>または</div>
+        <div><span class="line"> T   A     I         </span><ruby><rb>例</rb><rt>たと</rt></ruby>えば</div>
+      </div>
+
+      <div lang="ja">
+        <p>使い方の例：太字の所を比べて見よ。</p>
+      </div>
+      <div lang="en">
+        <p>Usage example: Compare the lines in bold.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">     A     I         </span>あるいは</div>
+        <div><span class="line">Y    AI      O   K   </span>あいこ</div>
+        <div><span class="line">    SAI TK  N        </span>さんの</div>
+        <div><span class="line">   K A       O  SK   </span>かも</div>
+        <div><span class="line">    S I      O A K T </span></div>
+        <div><span class="line">Y H SAI              </span><ruby><rb>知</rb><rt>し</rt></ruby>れない</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">Y  KSAI        A     </span></div>
+        <div><span class="line">    SA               </span><ruby><rb>毎朝</rb><rt>まいあさ</rt></ruby></div>
+        <div><span class="line">   KSA     I         </span>または</div>
+        <div><span class="line">Y  KSAI        A  HT </span></div>
+        <div><span class="line">     AIO             </span><ruby><rb>毎晩</rb><rt>まいばん</rt></ruby></div>
+        <div><span class="line"> THKSA O     O A   T </span>でて</div>
+        <div><span class="line">   K   O   I         </span><ruby><rb>来</rb><rt>こ</rt>い</ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> T   A     I         </span><ruby><rb>例</rb><rt>たと</rt></ruby>えば</div>
+        <div><span class="line">YT   AI      O   K   </span><ruby><rb>太鼓</rb><rt>たいこ</rt></ruby></div>
+        <div><span class="line">  H S  O   IN     H Y</span>のような</div>
+        <div><span class="line">       O     O     T </span><ruby><rb>音</rb><rt>おと</rt></ruby></div>
+      </div>
+    </section>
+    <section id="brief-8">
+      <div lang="ja">
+        <h2>略語８</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 8</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••      I      </span>〜い</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">     A        I      </span><ruby><rb>新</rb><rt>あたら</rt>しい</ruby></div>
+        <div><span class="line"> T    I       I      </span><ruby><rb>小</rb><rt>ちい</rt>さい</ruby></div>
+        <div><span class="line"> T            I      </span><ruby><rb>強</rb><rt>つよ</rt>い</ruby></div>
+        <div><span class="line"> T KSA        I      </span><ruby><rb>悪</rb><rt>わる</rt>い</ruby></div>
+        <div><span class="line"> T K A        I      </span>らしい</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">       O      I      </span><ruby><rb>同</rb><rt>おな</rt>じ</ruby></div>
+      </div>
+
+      <div lang="ja">
+        <p>使い方の例：</p>
+      </div>
+      <div lang="en">
+        <p>Usage examples:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">     <em>A        I</em>      </span><ruby><rb><em>新</em></rb><rt><em>あたら</em></rt><em>しい</em></ruby></div>
+        <div><span class="line"><em>Y    AI</em>           H  </span></div>
+        <div><span class="line">   K         O       </span><ruby><rb><em>愛</em></rb><rt><em>あい</em></rt><rb>服</rb><rt>ふく</rt>を</ruby></div>
+        <div><span class="line">   K  I          K T </span><ruby><rb>着</rb><rt>き</rt>る</ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> <em>T    I       I</em>      </span><ruby><rb><em>小</em></rb><rt><em>ちい</em></rt><em>さい</em></ruby></div>
+        <div><span class="line"> <em>T    I    I</em>    SK   </span><em>チー</em>ム</div>
+        <div><span class="line">             O       </span>を</div>
+        <div><span class="line"> T       K       K T </span><ruby><rb>作</rb><rt>つく</rt>る</ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> <em>T         I</em>         </span><em>つい</em></div>
+        <div><span class="line"> <em>T            I</em>      </span><ruby><rb><em>強</em></rb><rt><em>つよ</em></rt><em>い</em></ruby></div>
+        <div><span class="line"> T KSAIO     O       </span>ことを</div>
+        <div><span class="line">Y     I TK           </span>行った</div>
+      </div>
+
+      <div lang="ja">
+        <p>略語の変化：この略語のしりが「〜く、〜き」に変化したものは、次のようにして表す。</p>
+      </div>
+      <div lang="en">
+        <p>Conjugation: The briefs above can be conjugated with 〜く (<i>-ku</i>) and 〜き (<i>-ki</i>) as follows:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••         K   </span>〜く</div>
+        <div><span class="line">••••••••      I  K   </span>〜き</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">     A           K   </span><ruby><rb>新</rb><rt>あたら</rt>しく</ruby></div>
+        <div><span class="line">     A        I  K   </span><ruby><rb>新</rb><rt>あたら</rt>しき</ruby></div>
+        <div><span class="line"> T    I          K   </span><ruby><rb>小</rb><rt>ちい</rt>さく</ruby></div>
+        <div><span class="line"> T    I       I  K   </span><ruby><rb>小</rb><rt>ちい</rt>さき</ruby></div>
+        <div><span class="line"> T               K   </span><ruby><rb>強</rb><rt>つよ</rt>く</ruby></div>
+        <div><span class="line"> T            I  K   </span><ruby><rb>強</rb><rt>つよ</rt>き</ruby></div>
+        <div><span class="line"> T KSA           K   </span><ruby><rb>悪</rb><rt>わる</rt>く</ruby></div>
+        <div><span class="line"> T KSA        I  K   </span><ruby><rb>悪</rb><rt>わる</rt>き</ruby></div>
+        <div><span class="line"> T K A           K   </span>らしく</div>
+        <div><span class="line"> T K A        I  K   </span>らしき</div>
+        <div><span class="line">       O         K   </span><ruby><rb>同</rb><rt>おな</rt>じく</ruby></div>
+      </div>
+    </section>
+    <section id="brief-9">
+      <div lang="ja">
+        <h2>略語９</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 9</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••        SKHTY</span>〜な</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">       O        SKHTY</span><ruby><rb>同</rb><rt>おな</rt>じな</ruby></div>
+        <div><span class="line">      I         SKHTY</span>いろいろな</div>
+        <div><span class="line">  H   I         SKHTY</span><ruby><rb>非常</rb><rt>ひじょう</rt>な</ruby></div>
+      </div>
+
+      <div lang="ja">
+        <p>略語の変化：この略語のしりが「〜に、〜の」に変化したものは、次のようにして表す。</p>
+      </div>
+      <div lang="en">
+        <p>Conjugation: The briefs above can be conjugated with 〜に (<i>-ni</i>) and 〜の (<i>-no</i>) as follows:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••     OIAS H Y</span>〜に</div>
+        <div><span class="line">••••••••     OIAS H  </span>〜の</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">       O     OIAS H Y</span><ruby><rb>同</rb><rt>おな</rt>じに</ruby></div>
+        <div><span class="line">       O     OIAS H  </span><ruby><rb>同</rb><rt>おな</rt>じの</ruby></div>
+        <div><span class="line">      I      OIAS H Y</span>いろいろに</div>
+        <div><span class="line">      I      OIAS H  </span>いろいろの</div>
+        <div><span class="line">  H   I      OIAS H Y</span><ruby><rb>非常</rb><rt>ひじょう</rt>に</ruby></div>
+        <div><span class="line">  H   I      OIAS H  </span><ruby><rb>非常</rb><rt>ひじょう</rt>の</ruby></div>
+      </div>
+      <div lang="ja">
+        <p>使い方の例：太字の所を比べて見よ。</p>
+      </div>
+      <div lang="en">
+        <p>Usage example: Compare the lines in bold.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">  H S  O          HT </span></div>
+        <div><span class="line">       O   <em>INOIAS H Y</em></span><ruby><rb>信男</rb><rt>のぶお</rt><em>にも</em></ruby></div>
+        <div><span class="line">       O     <em>OIAS H Y</em></span><ruby><rb><em>同</em></rb><rt><em>おな</em></rt><em>じに</em></ruby></div>
+        <div><span class="line">Y    A       O A K T </span>やれ</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">      I    <em>I OIAS H Y</em></span>い<em>には</em></div>
+        <div><span class="line">      <em>I      OIAS H</em>  </span><em>いろいろの</em></div>
+        <div><span class="line">YTH      K I   A KH  </span><ruby><rb>病気</rb><rt>びょうき</rt>が</ruby></div>
+        <div><span class="line">     A  TK           </span>ある</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">  <em>H   I      OIAS H Y</em></span><ruby><rb><em>非常</em></rb><rt><em>ひじょう</em></rt><em>に</em></ruby></div>
+        <div><span class="line">  <em>H   I      O  S H</em>  </span><ruby><rb><em>日</em></rb><rt><em>ひ</em></rt><em>の</em></ruby></div>
+        <div><span class="line"> T   A  T    O  S H  </span>たつの</div>
+        <div><span class="line">         K           </span>が</div>
+        <div><span class="line">Y H  A  TK       K   </span><ruby><rb>早</rb><rt>はや</rt>く</ruby></div>
+        <div><span class="line">   K A      N I S  T </span></div>
+        <div><span class="line"> T K A  TK       K T </span><ruby><rb>感</rb><rt>かん</rt>じられる</ruby></div>
+      </div>
+      <div lang="ja">
+        <p>略語の比較：</p>
+      </div>
+      <div lang="en">
+        <p>Brief comparison:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">      I         SKHTY</span>いろいろな</div>
+        <div><span class="line">Y H     TK           </span>ような</div>
+        <div><span class="line">YTH     TK           </span><ruby><rb>的</rb><rt>て</rt>な</ruby></div>
+        <div><span class="line">YTHKS  O             </span>など</div>
+      </div>
+    </section>
+    <section id="brief-10">
+      <div lang="ja">
+        <h2>略語１０</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 10</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••     OI  K T </span>〜る</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">   K A       OI  K T </span><ruby><rb>考</rb><rt>かんが</rt>える</ruby></div>
+      </div>
+      <div lang="ja">
+        <p>略語の変化：この略語のしりが「〜た、〜て、〜と」に変化したものは、次のようにして表す。</p>
+      </div>
+      <div lang="en">
+        <p>Conjugation: The briefs above can be conjugated as follows:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••     OIA   T </span>〜た</div>
+        <div><span class="line">••••••••     OIA   TY</span>〜て</div>
+        <div><span class="line">••••••••     OIAS  T </span>〜と</div>
+        <div><span class="line">••••••••     OIA    Y</span>〜え、〜い</div>
+        <div><span class="line">••••••••     OI S H  </span>〜ない</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">   K A       OIA   T </span><ruby><rb>考</rb><rt>かんが</rt>えた</ruby></div>
+        <div><span class="line">   K A       OIA   TY</span><ruby><rb>考</rb><rt>かんが</rt>えて</ruby></div>
+        <div><span class="line">   K A       OIAS  T </span><ruby><rb>考</rb><rt>かんが</rt>えると</ruby></div>
+        <div><span class="line">   K A       OIA    Y</span><ruby><rb>考</rb><rt>かんが</rt>え</ruby></div>
+        <div><span class="line">   K A       OI S H  </span><ruby><rb>考</rb><rt>かんが</rt>えない</ruby></div>
+      </div>
+      <div lang="ja">
+        <p>使い方の例：太字の所を比べて見よ。</p>
+      </div>
+      <div lang="en">
+        <p>Usage example: Compare the lines in bold.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   K   OTK I         </span>これは</div>
+        <div><span class="line"> T KSA  TK     A KH  </span><ruby><rb>私</rb><rt>わたくし</rt>が</ruby></div>
+        <div><span class="line">   <em>K A       OIA   T</em> </span><ruby><rb><em>考</em></rb><rt><em>かんが</em></rt><em>えた</em></ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">   K   O     O  S H  </span>この</div>
+        <div><span class="line">  H    O    NO       </span><ruby><rb>本</rb><rt>ほん</rt>を</ruby></div>
+        <div><span class="line">   <em>K A  T   NO A   T</em> </span><ruby><rb><em>買</em></rb><rt><em>か</em></rt><em>っ</em>て</ruby></div>
+        <div><span class="line">Y  K  I TK           </span>きた</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">    SAI              </span>そう</div>
+        <div><span class="line">   <em>K A       OIAS  T</em> </span><ruby><rb><em>考</em></rb><rt><em>かんが</em></rt><em>えると</em></ruby></div>
+        <div><span class="line">   K AI    IN   S H  </span>こうなる</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">Y  K   OTK   O  S H  </span></div>
+        <div><span class="line">   <em>K A     I OIAS  T</em> </span><ruby><rb>九</rb><rt>ここの</rt><rb><em>日</em></rb><rt><em>か</em></rt><em>とは</em></ruby></div>
+        <div><span class="line">   K A         A K   </span></div>
+        <div><span class="line"> T K A        IAS H Y</span>かからない</div>
+      </div>
+    </section>
+    <section id="brief-11">
+      <div lang="ja">
+        <h2>略語１１</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 11</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">        T            </span>に〜</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">        T    O       </span>において</div>
+        <div><span class="line">        T      A K   </span>に<ruby><rb>関</rb><rt>かん</rt></ruby>して</div>
+        <div><span class="line">        T      A   T </span>に<ruby><rb>対</rb><rt>たい</rt></ruby>して</div>
+        <div><span class="line">        T          T </span>について</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">        T     I  K   </span>に<ruby><rb>関</rb><rt>かん</rt></ruby>し</div>
+        <div><span class="line">        T     I    T </span>に<ruby><rb>対</rb><rt>たい</rt></ruby>し</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">        T     IA     </span>における</div>
+        <div><span class="line">        T     IA K   </span>に<ruby><rb>関</rb><rt>かん</rt></ruby>する</div>
+        <div><span class="line">        T     IA   TY</span>に<ruby><rb>対</rb><rt>たい</rt></ruby>する</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">        T        K   </span>にもかかわらず</div>
+      </div>
+      <div lang="ja">
+        <p>使い方の例：太字の所を比べて見よ。</p>
+      </div>
+      <div lang="en">
+        <p>Usage example: Compare the lines in bold.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">  H S I      O  SK   </span></div>
+        <div><span class="line"> <em>T           O</em>       </span><ruby><rb>荷<em>物</em></rb><rt>にも<em>つ</em></rt><em>を</em></ruby></div>
+        <div><span class="line">  HK A  T   N IA K   </span><ruby><rb>学校</rb><rt>がっこう</rt></ruby></div>
+        <div><span class="line">        <em>T    O</em>       </span><em>において</em></div>
+        <div><span class="line"> T KSA         A   T </span></div>
+        <div><span class="line">    S                </span><ruby><rb>渡</rb><rt>わた</rt>す</ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">  <em>H S I      O</em>       </span><em>にを</em></div>
+        <div><span class="line"> T     O      IA K   </span>とこう</div>
+      </div>
+      <div lang="ja">
+        <p>略語の組み合わせ：この略語の後に「は、の、も」が来る場合は、中の群の<code>I</code>、<code>N</code>を組み合わせて、次のようにして表す。</p>
+      </div>
+      <div lang="en">
+        <p>Combinations: You can combine the briefs above with は, の, or も using <code>I</code> and <code>N</code> from the center bank:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">        T  I O       </span>においては</div>
+        <div><span class="line">        T   NO       </span>においての</div>
+        <div><span class="line">        T  INO       </span>においても</div>
+        <div><span class="line">        T  I   A K   </span>に<ruby><rb>関</rb><rt>かん</rt></ruby>しては</div>
+        <div><span class="line">        T   N  A K   </span>に<ruby><rb>関</rb><rt>かん</rt></ruby>しての</div>
+        <div><span class="line">        T  IN  A K   </span>に<ruby><rb>関</rb><rt>かん</rt></ruby>しても</div>
+        <div><span class="line">        T  I   A   T </span>に<ruby><rb>対</rb><rt>たい</rt></ruby>しては</div>
+        <div><span class="line">        T   N  A   T </span>に<ruby><rb>対</rb><rt>たい</rt></ruby>しての</div>
+        <div><span class="line">        T  IN  A   T </span>に<ruby><rb>対</rb><rt>たい</rt></ruby>しても</div>
+        <div><span class="line">        T  I       T </span>については</div>
+        <div><span class="line">        T   N      T </span>についての</div>
+        <div><span class="line">        T  IN      T </span>についても</div>
+      </div>
+    </section>
+    <section id="brief-12">
+      <div lang="ja">
+        <h2>略語１２</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 12</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">        TK ••••••••••</span></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">        TK   O  SK   </span><ruby><rb>問題</rb><rt>もんだい</rt></ruby></div>
+        <div><span class="line">        TK   O AS    </span><ruby><rb>生活</rb><rt>せいかつ</rt></ruby></div>
+        <div><span class="line">        TK   O A KH  </span><ruby><rb>現在</rb><rt>げんざい</rt></ruby></div>
+      </div>
+
+      <div lang="ja">
+        <p>略語の組み合わせ：</p>
+      </div>
+      <div lang="en">
+        <p>Combinations:</p>
+      </div>
+      <div class="steno">
+        <div><span class="line">        TK I O  SK   </span><ruby><rb>問題</rb><rt>もんだい</rt>は</ruby></div>
+        <div><span class="line">        TK  NO  SK   </span><ruby><rb>問題</rb><rt>もんだい</rt>の</ruby></div>
+        <div><span class="line">        TK INO  SK   </span><ruby><rb>問題</rb><rt>もんだい</rt>も</ruby></div>
+        <div><span class="line">        TK I O AS    </span><ruby><rb>生活</rb><rt>せいかつ</rt>は</ruby></div>
+        <div><span class="line">        TK  NO AS    </span><ruby><rb>生活</rb><rt>せいかつ</rt>の</ruby></div>
+        <div><span class="line">        TK INO AS    </span><ruby><rb>生活</rb><rt>せいかつ</rt>も</ruby></div>
+        <div><span class="line">        TK I O A KH  </span><ruby><rb>現在</rb><rt>げんざい</rt>は</ruby></div>
+        <div><span class="line">        TK  NO A KH  </span><ruby><rb>現在</rb><rt>げんざい</rt>の</ruby></div>
+        <div><span class="line">        TK INO A KH  </span><ruby><rb>現在</rb><rt>げんざい</rt>も</ruby></div>
+      </div>
+    </section>
+    <section id="brief-13">
+      <div lang="ja">
+        <h2>略語１３</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 13</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">         K ••••••••••</span></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">         K    I S H  </span><ruby><rb>日本</rb><rt>にっぽん</rt></ruby></div>
+        <div><span class="line">         K     A     </span>アメリカ</div>
+      </div>
+      <div lang="ja">
+        <p>略語の組み合わせ：</p>
+      </div>
+      <div lang="en">
+        <p>Combinations:</p>
+      </div>
+      <div class="steno">
+        <div><span class="line">         K I  I S H  </span><ruby><rb>日本</rb><rt>にっぽん</rt>は</ruby></div>
+        <div><span class="line">         K  N I S H  </span><ruby><rb>日本</rb><rt>にっぽん</rt>の</ruby></div>
+        <div><span class="line">         K IN I S H  </span><ruby><rb>日本</rb><rt>にっぽん</rt>も</ruby></div>
+        <div><span class="line">         K I   A     </span>アメリカは</div>
+        <div><span class="line">         K  N  A     </span>アメリカの</div>
+        <div><span class="line">         K IN  A     </span>アメリカも</div>
+      </div>
+    </section>
+    <section id="brief-14">
+      <div lang="ja">
+        <h2>略語１４</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 14</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••      I    T </span>〜ち</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">    S         I    T </span>すなわち</div>
+      </div>
+      <div lang="ja">
+        <p>使い方の例：太字の所を比べて見よ。</p>
+      </div>
+      <div lang="en">
+        <p>Usage example: Compare the lines in bold.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   KS  O      I S  T </span><ruby><rb>文字</rb><rt>もじ</rt></ruby></div>
+        <div><span class="line">             O       </span>を</div>
+        <div><span class="line">   K A   K           </span><ruby><rb>書</rb><rt>か</rt>く</ruby></div>
+        <div><span class="line">   K  I       IA K  Y</span><ruby><rb>機械</rb><rt>きかい</rt></ruby></div>
+        <div><span class="line">    <em>S         I    T</em> </span><em>すなわち</em></div>
+        <div><span class="line">YT   AI          KHT </span></div>
+        <div><span class="line">YT K AI        A   T </span>タイプライタ</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">  H  A O       A    Y</span><ruby><rb>部屋</rb><rt>へや</rt></ruby></div>
+        <div><span class="line">        T            </span>に</div>
+        <div><span class="line">    <em>S   T  I</em>  I      </span></div>
+        <div><span class="line">   KS        O       </span><em>スチ</em>ームを</div>
+        <div><span class="line"> T   AI         S    </span><ruby><rb>通</rb><rt>とお</rt>す</ruby></div>
+      </div>
+    </section>
+    <section id="brief-15">
+      <div lang="ja">
+        <h2>略語１５</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 15</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••     OIA     </span>〜ん</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">   KS  O     OIA     </span>もちろん</div>
+        <div><span class="line">  HK   O     OIA     </span><ruby><rb>午前</rb><rt>ごぜん</rt></ruby></div>
+      </div>
+      <div lang="ja">
+        <p>使い方の例：太字の所を比べて見よ。</p>
+      </div>
+      <div lang="en">
+        <p>Usage example: Compare the lines in bold.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   <em>KS  O     OIA</em>     </span><em>もちろん</em></div>
+        <div><span class="line">   <em>KS  O    N</em>    K   </span><ruby><rb><em>文</em>句</rb><rt><em>もん</em>く</rt></ruby></div>
+        <div><span class="line">           I         </span>は</div>
+        <div><span class="line">      I        ASK T </span></div>
+        <div><span class="line">Y H SAI              </span><ruby><rb>言</rb><rt>い</rt>わない</ruby></div>
+      </div>
+    </section>
+    <section id="brief-16">
+      <div lang="ja">
+        <h2>略語１６</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 16</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••   IN        </span>〜も</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">   K A O   IN        </span>けれども</div>
+        <div><span class="line">   KS  O   IN        </span><ruby><rb>最</rb><rt>もっと</rt>も</ruby></div>
+      </div>
+      <div lang="ja">
+        <p>使い方の例：太字の所を比べて見よ。</p>
+      </div>
+      <div lang="en">
+        <p>Usage example: Compare the lines in bold.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line"> T  S I        ASK T </span><ruby><rb>字</rb><rt>じ</rt>は</ruby></div>
+        <div><span class="line">   K A     <em>INO A K</em>   </span><ruby><rb>書</rb><rt>か</rt><em>ける</em></ruby></div>
+        <div><span class="line">   <em>K A O   IN</em>        </span><em>けれども</em></div>
+        <div><span class="line">Y    A            HT </span></div>
+        <div><span class="line"> T K A O             </span><ruby><rb>破</rb><rt>やぶ</rt>れ</ruby></div>
+        <div><span class="line">Y    A          S    </span></div>
+        <div><span class="line">      I              </span><ruby><rb>安</rb><rt>やす</rt>い</ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">   <em>KS  O   IN</em>        </span><ruby><rb><em>最</em></rb><rt><em>もっと</em></rt><em>も</em></ruby></div>
+        <div><span class="line">   K  I      O A K TY</span></div>
+        <div><span class="line">               AS H  </span><ruby><rb>綺</rb><rt>き</rt><rb>麗</rb><rt>れい</rt>な</ruby></div>
+        <div><span class="line">   K  I    <em>INO  SK</em>   </span><ruby><rb>着</rb><rt>き</rt><rb><em>物</em></rb><rt><em>もの</em></rt></ruby></div>
+        <div><span class="line">             O       </span>を</div>
+        <div><span class="line">Y  K  IOTK           </span>ください</div>
+      </div>
+    </section>
+    <section id="brief-17">
+      <div lang="ja">
+        <h2>略語１７</h2>
+      </div>
+      <div lang="en">
+        <h2>Brief 17</h2>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••           T </span>〜に</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">    SA             T </span>さらに</div>
+        <div><span class="line">    S              T </span>すでに</div>
+        <div><span class="line">  H SA             T </span><ruby><rb>並</rb><rt>なら</rt>びに</ruby></div>
+      </div>
+      <div lang="ja">
+        <p>使い方の例：</p>
+      </div>
+      <div lang="en">
+        <p>Usage example: </p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">    <em>SA             T</em> </span><em>さらに</em></div>
+        <div><span class="line">    <em>SA  T</em>    O       </span><ruby><rb><em>撮</em></rb><rt><em>さつ</em></rt>を</ruby></div>
+        <div><span class="line">     A         A   T </span></div>
+        <div><span class="line">     A O       A   T </span><ruby><rb>与</rb><rt>あた</rt>えた</ruby></div>
+      </div>
+    </section>
+    <section id="brief-18">
+      <div lang="ja">
+        <h2>略語１８</h2>
+        <p>詰まる音の次には普通「k、s、t、p」の音節が来る。この略語は詰まる音節の次に「k、s、t、p」以外の音節お付けて組み立ててある。</p>
+      </div>
+      <div lang="en">
+        <h2>Brief 18</h2>
+        <p>Geminated consonants are usually followed by one of <i>k</i>, <i>s</i>, <i>t</i>, or <i>p</i>. Briefs
+        can be constructed by adding a syllable other than <i>k</i>, <i>s</i>, <i>t</i>, or <i>p</i>
+        after the geminated consonant.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line"> T   AIO       A K T </span>〜ったら</div>
+        <div><span class="line"> T   AIO      I  K T </span>〜ったり</div>
+        <div><span class="line"> T   AIO      IA K T </span>〜ったろう</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> T   AIO         K T </span>〜ってる</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> T   AIO       ASK T </span>〜っては</div>
+        <div><span class="line"> T   AIO     O  S H  </span>〜っての</div>
+        <div><span class="line"> T   AIO     O  SK   </span>〜っても</div>
+      </div>
+      <div lang="ja">
+        <p>中の群の詰まる音を使う場合も同じように使う。</p>
+      </div>
+      <div lang="en">
+        <p>The same also applies when using the <code>TN</code> chord in the center bank:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">••••••••T   N  A K T </span>〜ったら</div>
+        <div><span class="line">••••••••T   N I  K T </span>〜ったり</div>
+        <div><span class="line">••••••••T   N IA K T </span>〜ったろう</div>
+        <div><span class="line">••••••••T   N        </span></div>
+        <div><span class="line">••••••••T   N    K T </span>〜ってる</div>
+        <div><span class="line">••••••••T   N        </span></div>
+        <div><span class="line">••••••••T   N  ASK T </span>〜っては</div>
+        <div><span class="line">••••••••T   NO  S H  </span>〜っての</div>
+        <div><span class="line">••••••••T   NO  SK   </span>〜っても</div>
+      </div>
+      <div lang="ja">
+        <p>使い方の例：</p>
+      </div>
+      <div lang="en">
+        <p>Usage example: </p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line"> T             ASK   </span></div>
+        <div><span class="line"> <em>T   AIO     O  SK</em>   </span><ruby><rb>詰</rb><rt>つ</rt>ま<em>っても</em></ruby></div>
+        <div><span class="line">Y      O   I         </span>よい</div>
+        <div><span class="line"> T K AIO             </span>から</div>
+        <div><span class="line"> THKS    K  NOIA     </span>どんどん</div>
+        <div><span class="line">Y      O        SK T </span><ruby><rb>読</rb><rt>よ</rt>み</ruby></div>
+        <div><span class="line">Y   SAI TK           </span>なさい</div>
+      </div>
+    </section>
+    <section id="numbers">
+      <div lang="ja">
+        <h2>数言葉</h2>
+        <p>数言葉は言う通りに打つ。</p>
+      </div>
+      <div lang="en">
+        <h2>Numbers</h2>
+        <p>Write number words exactly as they are said.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line"> T K   O K     A KH  </span></div>
+        <div><span class="line"> T                   </span><ruby><rb>六</rb><rt>ろく</rt><rb>月</rb><rt>がつ</rt></ruby></div>
+        <div><span class="line"> T KS   T   N  A K   </span><ruby><rb>三日</rb><rt>みっか</rt></ruby></div>
+        <div><span class="line">  HK   O     O   KH  </span><ruby><rb>午後</rb><rt>ごご</rt></ruby></div>
+        <div><span class="line">  H S I       I S  T </span><ruby><rb>二</rb><rt>に</rt><rb>時</rb><rt>じ</rt></ruby></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line"> T K   O K   OI S  TY</span><ruby><rb>六</rb><rt>ろく</rt><rb>十</rb><rt>じゅう</rt></ruby></div>
+        <div><span class="line">      I T  I O A     </span></div>
+        <div><span class="line">     AIO             </span><ruby><rb>一</rb><rt>いち</rt><rb>円</rb><rt>えん</rt></ruby></div>
+      </div>
+    </section>
+    <section id="symbols">
+      <div lang="ja">
+        <h2>印</h2>
+        <p>文章を書く時いろいろな印を使うように、ステノタイプでも速記の立場から次のような印を使う。</p>
+      </div>
+      <div lang="en">
+        <h2>Symbols</h2>
+        <p>Just as various symbols are used in normal writing, stenotype has a way to write symbols in shorthand.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">            N••••••••</span></div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line">            N    K   </span>区切り / separator</div>
+      </div>
+      <div lang="ja">
+        <p>使い方の例：</p>
+      </div>
+      <div lang="en">
+        <p>Usage example: </p>
+      </div>
+      <div class="steno">
+        <div><span class="line">   K   O     O  S H  </span>この</div>
+        <div><span class="line">        TK   O  SK   </span><ruby><rb>問題</rb><rt>もんだい</rt></ruby></div>
+        <div><span class="line">        T  I       T </span>については</div>
+        <div><span class="line"> T KSA  TK I         </span>わでは</div>
+        <div><span class="line">YT   AI       IA KH Y</span><ruby><rb>大概</rb><rt>だいがい</rt></ruby></div>
+        <div><span class="line">    S I T   NO A   T </span></div>
+        <div><span class="line">      I    IN  ASK  Y</span><ruby><rb>知</rb><rt>し</rt>っていました</ruby></div>
+        <div><span class="line">   K A O   IN        </span>けれども</div>
+        <div><span class="line">Y  KSAI TK     AS  TY</span><ruby><rb>今</rb><rt>いま</rt>じゃ</ruby></div>
+        <div><span class="line">Y      O K     ASK T </span>よくは</div>
+        <div><span class="line">            <em>N    K</em>   </span>（区切り）</div>
+        <div><span class="line">   KSA  T   N  A   T </span></div>
+        <div><span class="line">   K                 </span><ruby><rb>全</rb><rt>まった</rt>く</ruby></div>
+        <div><span class="line">    S I       I  K T </span></div>
+        <div><span class="line">   KS   TK           </span><ruby><rb>知</rb><rt>し</rt>りません</ruby></div>
+      </div>
+      <div lang="ja">
+        <p>話した人を示すには、左の群と星印とを組み合わせる。例えば：</p>
+      </div>
+      <div lang="en">
+        <p>To indicate the person speaking, combine the left bank with an asterisk. Example:</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">    SA    *          </span><ruby><rb>佐伯</rb><rt>さえき</rt></ruby></div>
+        <div><span class="line">   K A    *          </span><ruby><rb>川上</rb><rt>かわかみ</rt></ruby></div>
+        <div><span class="line">Y   SAI   *          </span><ruby><rb>裁判官</rb><rt>さいばんかん</rt></ruby> / judge</div>
+        <div><span class="line">  H   I   *          </span><ruby><rb>被告人</rb><rt>ひこくにん</rt></ruby> / defendant</div>
+      </div>
+
+      <div lang="ja">
+        <p>などのようにあらかじめ決めておく。</p>
+      </div>
+      <div lang="en">
+        <p>Decide on these outlines in advance.</p>
+      </div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y   SAI   *          </span>（裁判官：）</div>
+        <div><span class="line">     A         AS H  </span></div>
+        <div><span class="line"> T   A         ASK T </span>あなたは</div>
+        <div><span class="line">      I T            </span>いつ</div>
+        <div><span class="line">Y   S  OTK    I S H  </span>そこに</div>
+        <div><span class="line">      I  K I         </span></div>
+        <div><span class="line">Y  KSA  TK     A K   </span><ruby><rb>行</rb><rt>い</rt>きましたか</ruby></div>
+        <div><span class="line">  H   I   *          </span>（被告人：）</div>
+        <div><span class="line"> T   A        I S    </span></div>
+        <div><span class="line">   K A               </span><ruby><rb>確</rb><rt>たし</rt>か</ruby></div>
+        <div><span class="line">Y  K   O     O AS H  </span></div>
+        <div><span class="line">     AIO    N        </span><ruby><rb>去年</rb><rt>きょねん</rt>の</ruby></div>
+        <div><span class="line">  H SA  T            </span><ruby><rb>夏</rb><rt>なつ</rt></ruby></div>
+        <div><span class="line"> THKSA  T   N  A   T </span>だった</div>
+        <div><span class="line">             O     T </span>と</div>
+        <div><span class="line">     AI TK IN  ASK   </span><ruby><rb>追</rb><rt>お</rt>うまでも</ruby></div>
+        <div><span class="line">Y   SAI   *          </span>（裁判官：）</div>
+        <div><span class="line">  H   I TK    I  K T </span><ruby><rb>一人</rb><rt>ひとり</rt></ruby></div>
+        <div><span class="line">        TK           </span>で</div>
+        <div><span class="line">Y   S  OTK    I S H  </span>そこに</div>
+        <div><span class="line">Y     I TK  N        </span><ruby><rb>行</rb><rt>い</rt>ったの</ruby></div>
+        <div><span class="line"> THKSA OTK     A K   </span>ですか</div>
+      </div>
+
+      <div lang="ja">
+        <p>すでに売ってしまった部分を直したり、また上の部分に差し入れたりする場合には、星を三つ打った後にそれを打つ。</p>
+      </div>
+      <div lang="en">
+        <p>To edit or undo a stroke that has been written, write three asterisks then write the corrected version.</p>
+      </div>
+      <div class="steno">
+        <div><span class="line">   K   O     O  S H  </span>この</div>
+        <div><span class="line">Y  K A O       A K   </span></div>
+        <div><span class="line">   K           ASK T </span><ruby><rb>計画</rb><rt>かいかく</rt>は</ruby></div>
+        <div><span class="line">Y H  A  TK       K   </span><ruby><rb>早</rb><rt>はや</rt>く</ruby></div>
+        <div><span class="line deleted">Y H  AI       I S    </span></div>
+        <div><span class="line deleted">    S   TK    IA  H  </span></div>
+        <div><span class="line deleted">         K           </span></div>
+        <div><span class="line deleted">      I    I O     T </span></div>
+        <div><span class="line deleted">          *          </span></div>
+        <div><span class="line deleted">          *          </span></div>
+        <div><span class="line deleted">          *          </span></div>
+        <div><span class="line">Y  K AI       I S    </span><ruby><rb>開始</rb><rt>かいし</rt></ruby></div>
+        <div><span class="line">    S   TK    IA  H  </span>する<ruby><rb>法</rb><rt>ほう</rt></ruby></div>
+        <div><span class="line">         K           </span>が</div>
+        <div><span class="line">      I    I O     T </span><ruby><rb>良</rb><rt>い</rt>いと</ruby></div>
+        <div><span class="line">     AI TK IN  ASK   </span><ruby><rb>追</rb><rt>お</rt>うまでも</ruby></div>
+        <div><span class="line">YT   AI TK IN   S  T </span>とおずでも</div>
+        <div><span class="line"> T K A        I S H  </span>だに</div>
+        <div><span class="line">  H S  O K  NO ASK T </span>のびのび</div>
+        <div><span class="line">  H S I      OIASKHTY</span>になって</div>
+        <div><span class="line">    S I       IASK   </span><ruby><rb>氏</rb><rt>し</rt>もう</ruby></div>
+        <div><span class="line">             O     T </span>と</div>
+      </div>
+
+      <div lang="ja">
+        <p>開け：行の間を開けたい場合は開けのボタンを打つ。</p>
+      </div>
+      <div lang="en">
+        <p>Space: Press the Space key to add a space between lines.</p>
+      </div>
+    </section>
+  </body>
+</html>
