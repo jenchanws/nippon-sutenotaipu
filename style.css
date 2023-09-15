@@ -176,6 +176,12 @@ li > ul {
   margin-left: 1em;
 }
 
+li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
+}
+
 blockquote {
   line-height: 1.5em;
   text-indent: 2em;
