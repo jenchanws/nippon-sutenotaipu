@@ -1,3 +1,3 @@
-# 日本ステノタイプ _Nippon Sutenotaipu_
+# ステノワード StenoWord
 
-The book on Japanese machine stenography.
+Textbook on fast Japanese text input using the StenoWord system.
