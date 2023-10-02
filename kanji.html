@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ソクタイプによる漢字処理法 Sokutaipu Kanji Input Method</title>
+    <meta charset="UTF-8" />
+    <meta
+      property="og:title"
+      content="ソクタイプによる漢字処理法 Sokutaipu Kanji Input Method"
+    />
+    <meta
+      property="og:description"
+      content="Article on entering kanji with the Sokutaipu theory"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=M+PLUS+Rounded+1c:wght@400;700&family=Azeret+Mono:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <section>
+      <div lang="ja">
+        <h1>ソクタイプによる漢字処理法</h1>
+        <header>佐伯　功介＊</header>
+        <footer>
+          <ul>
+            <li>裁判所書記官研究所講師、（社）日本ローマ字会理事、ソクタイプ研究所長</li>
+          </ul>
+        </footer>
+      </div>
+      <div lang="en">
+        <h1>Sokutaipu Kanji Input Method</h1>
+        <header>
+          by Saeki Kōsuke*<br />
+          <i>transcribed by Jennifer Chan and Sammi de Guzman</i>
+        </header>
+        <footer>
+          <ul>
+            <li>
+              Lecturer, Court Clerk Research Institute<br>
+              Director, Japan Romaji Society<br>
+              Director, Sokutaipu Research Institute
+            </li>
+          </ul>
+        </footer>
+        <div class="note">
+          <b>Note</b>: The contents of this page have been transcribed from a poor-quality PDF scan of the article. Contents may not be completely accurate.
+        </div>
+      </div>
+    </section>
+    <section>
+      <div lang="ja">
+        <h3>見出し</h3>
+        <ol class="contents">
+          <li><a href="#foreword">まえがき</a></li>
+          <li><a href="#background">ソクタイプ速記の現状</a></li>
+          <li><a href="#keyboard-layout">機械の構造</a></li>
+          <li>速記記号のあらまし
+            <ol>
+              <li><a href="#theory-basics">基本</a></li>
+              <li><a href="#briefs">略語</a></li>
+              <li><a href="#briefs-proportion">略語の数と割合</a></li>
+            </ol>
+          </li>
+          <li>漢字入力への応用
+            <ol>
+              <li><a href="#kanji-designation">漢字指定</a></li>
+              <li><a href="#kanji-code">漢字コード</a></li>
+            </ol>
+          </li>
+          <li>熟語本位への切り換え
+            <ol>
+              <li><a href="#words-over-letters">文字よりも単語</a></li>
+              <li><a href="#homophones">同音語の処理</a></li>
+            </ol>
+          </li>
+          <li><a href="#conclusion">むすび</a></li>
+        </ol>
+      </div>
+      <div lang="en"></div>
+    </section>
+    <section id="foreword">
+      <div lang="ja">
+        <h2>１　まえがき</h2>
+        <p>
+          漢字かな文を機械で処理する方法は、近年、分速何千字何万字という、高速度のものが開発されつつあるが、こういう機械の入力はほとんどが漢字テレタイプ式のさん孔テープによっている。现在の漢テレさん孔速度は、せいぜい每分７０字だから釣合が取れない。
+        </p>
+        <p>
+          筆者は昨年、ソクタイプによる漢字入力法を発表したが、これはほんのアウトラインだったので、多数のお問い合わせをうけた。今回もページの制限があるから充分ではないが、少し詳しく述べる。
+        </p>
+      </div>
+      <div lang="en"></div>
+    </section>
+    <section id="background">
+      <div lang="ja">
+        <h2>２　ソクタイプ速記の現状</h2>
+        <p>
+          ソクタイプというのは、現在全国の裁判所で使っている速記の機械である。このソクタイプは、もともと第１次大戦のベレサイユ会議などで使われていたフランスの発明品を、故田中舘愛橘博士が日本に紹介したものであった。日本語を打つためのキー構成や記号、略語の組織を作って、今日の機械を完成させたのは、ソクタイプ研究所の川上　晃氏である。裁判所では昭和２５年から速記官の養成を始め、２０年間で卒業生１０００人を超えた。
+        </p>
+        <p>
+          速記官の養成は２箇年の研修であるが、最初の半年で打ち方は全部覚える。しかし、この時点ではせいぜい每分７０〜８０語ぐらいの速さで、速記にはならない。
+        </p>
+        <p>
+          ７０語とか８０語とかいうのはローマ字で書いた文章の語数である。漢字かなで書くと、統計的に１語が２字に当たる。８０語が１６０字である。生徒の力をはなるテストは、それぞれの速さで５分間読み上げ、誤り語数２％以内を合格としている。
+        </p>
+        <p>
+          打ち方をおぼえたあとは反復練習しかない。８０語に合格すれば９０語、つぎは１００語と１０語ずつ速めて、１年の終わりには１３０〜１４０語に達するのが普通である。卒業資格は１７０語であるが、事実上全員１８０語以上、そのうち約半数のものが２００語以上をとって出る。
+        </p>
+        <p>
+          いままでの最高は２３５語（每分４７０字）である。もうこの辺になると、人間がどんな速さで読めるか、試験官のほうがテストされているような形になる。
+        </p>
+        <p>
+          実務には１５０〜１６０語ぐらい確実にとれれば充分とされる（ラジオのニュース解説ぐらいの速さ）。瞬間的には２００語以上もでるが、２００語で１０秒も続くことは実際にはおこらない。
+        </p>
+      </div>
+      <div lang="en"></div>
+      <div>
+        <img src="layout.png" alt="Sokutaipu layout" />
+      </div>
+      <div lang="ja">
+        <caption>
+          図１　ソクタイプのキーボード
+        </caption>
+      </div>
+      <div lang="en">
+        <caption>
+          Figure 1: Sokutaipu keyboard.
+        </caption>
+      </div>
+    </section>
+    <section id="keyboard-layout">
+      <div lang="ja">
+        <h2>３　機械の構造</h2>
+        <p>
+          機械は、２１の活字が一列に並び、それぞれ連結したキーを押すと、約２㎜突出してその場所で印字する。タイプライタとちがって、同時にいくつでもキーを押してよく、それが１行に並んで印字される。紙は６㎝幅で、６０mの長さのものをジグザグに折って内臓してある。この６㎝幅の中に２１文字が並ぶ。１字打っても２０字打っても、１度打って手を離せば１行送る。
+        </p>
+        <p>
+          活字はそれぞれ個有位置で印字し、横には動かないから、つまり２１孔のさん孔テープと同等である。ことばへの関連づけと、人間が目で見て読むために文字になっているが、機械の中では黒丸でも孔でもよい。たとえば
+        </p>
+      </div>
+      <div lang="en"></div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">  H S I      OIA     </span>（人間）</div>
+        <div><span class="line">   K  I       IA K  Y</span>（機械）</div>
+        <div><span class="line">                     </span></div>
+        <div><span class="line dots">○○●○●○●○○○○○○●●●○○○○○</span>（人間）</div>
+        <div><span class="line dots">○○○●○○●○○○○○○○●●○●○○●</span>（機械）</div>
+      </div>
+      <div lang="ja">
+        <p class="contin">
+          と同じである。キーは１０本の指で、任意の組み合わせが打てるように、特殊の形に配列してある。（図１）指の受持はつぎのとおる：
+        </p>
+        <img src="fingers-ja.png" alt="Finger layout (Japanese version)" />
+      </div>
+      <div lang="en">
+        <p class="contin"></p>
+        <img src="fingers-en.png" alt="Finger layout (English version)" />
+      </div>
+    </section>
+    <section id="theory-basics">
+      <div lang="ja">
+        <h2>４　速記記号のあらまし</h2>
+        <h3>４.１　基本</h3>
+        <p>
+          ２０の文字キーを３つの群に分け、それぞれ左、右、中の群という。左の群は左手の４本の指が受け持つ８つのキーで、その情報数は２⁸
+          ＝２５６だから、五十音はもちろん、拗音、それらの長音（「〜おう」と「〜うう」）および「〜あい」、「〜えい」韻までをふくむ音節が区別される＊＊＊。左の群の記号はそのまま裏返しにすれば右の群の記号となる。これらの記号はローマ字のように、子音＋母音の構造になっているが、速記者の意識にはもはや子音、母音はなく
+        </p>
+      </div>
+      <div lang="en"></div>
+      <div>
+        <img src="shapes.png" alt="Interpreting Sokutaipu outlines as shapes.">
+      </div>
+      <div lang="ja">
+        <p class="contin">など、それぞれの指の形が文字なのである。</p>
+        <p>
+          中の群は４つのキーだから、少数の限りられた音（つ、く、い、ん、ち、き、つまる音っ）が打てる。
+        </p>
+        <p>
+          この３つの群の音記号を基本という。これは一種の音文字であるが、これでことばを表わす場合、つぎの３つの重要な規則に従う：
+        </p>
+        <ol class="lettered">
+          <li>語の第１音節は左の群で打つ。</li>
+          <li>つぎの音節が中の群で打てる音ならば必ず中で打つ。</li>
+          <li>
+            １打にならない語は残りをまた規則（a）、（b）に準して左から打ちつぐ。
+          </li>
+        </ol>
+        <p>
+          基本はこの規則によって、２音節または３音節を１打にする。これはかなで書けば最長７字、平均４字か５字にあたるだろう。しかし、これだけではまだ人間のしゃべる速さに追いつけない。少なくとも、らくに追いつけないから、頻度の高い語に対して略語が決めてある。
+        </p>
+      </div>
+      <div lang="en"></div>
+    </section>
+    <section id="briefs">
+      <div lang="ja">
+        <h2>４.２　略語</h2>
+        <p>
+          略語には６種類ばかりのタイプがあるが、だいたい一見して基本とは区別がつくようになっている。たとえば、
+        </p>
+      </div>
+      <div lang="en"></div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   K    T            </span>（くつ）</div>
+      </div>
+      <div lang="ja">
+        <p class="contin">は基本で「くつ」であるが、</p>
+      </div>
+      <div lang="en"></div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   K               T </span>（くべつ）</div>
+      </div>
+      <div lang="ja">
+        <p class="contin">は基本の規則（b）に違反しているから基本ではなく、「区別」という略語になる。また</p>
+      </div>
+      <div lang="en"></div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">    S                </span>（すべて）</div>
+      </div>
+      <div lang="ja">
+        <p class="contin">は右で「す」と打ってあるが、基本ならば規則（a）（c）によって左があくことはない。これは「すべて」という略語になる。中の群れで打つ助詞、</p>
+      </div>
+      <div lang="en"></div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">        T            </span>（に）</div>
+        <div><span class="line">         K           </span>（が）</div>
+        <div><span class="line">        TK           </span>（で）</div>
+        <div><span class="line">           I         </span>（は）</div>
+        <div><span class="line">            N        </span>（の）</div>
+        <div><span class="line">           IN        </span>（も）</div>
+      </div>
+      <div lang="ja">
+        <p class="contin">およびその組合せの</p>
+      </div>
+      <div lang="en"></div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">        T  IN        </span>（にも）</div>
+        <div><span class="line">        TK I         </span>（では）</div>
+      </div>
+      <div lang="ja">
+        <p class="contin">なども左があいているから略語である。これらは基本で打っても１打という点では同じだが、１０打に１つぐらいの割ででるこういう助詞を親指（中）で打つと、その間４本の指は休んでつぎの準備をしているから、スムーズにリズミカルに打てるのである。</p>
+        <p>略語の各種類にわたって系統的に述べる紙数がないが、大別して片手略語と両手略語とになる。片手略語は左または右の片手で決まるもので、「され、られ、たら、たり、かた、きり、しか、はな」など意味の稀薄な、むしろ、２音のかなとみるべきものや「だけ、など、こと、から、ます、ある、あります、ました、ません」などのような形式語や助詞の類が多い。これに対して両手略語は両手で組み合って１つの略語になるもので、大部分がはっきりした実質語である。</p>
+      </div>
+      <div lang="en"></div>
+    </section>
+    <section id="briefs-proportion">
+      <div lang="ja">
+        <h3>４.３　略語の数と割合</h3>
+        <p>略語の数は、現在は片手２２７、両手２４８、合計４７５が使われている。以前は片手２３１、両手６０９であったが、実際に速記したテープを調べると、だいたいつぎのような割合になっていた：</p>
+        <blockquote>
+          <p class="contin">
+          　　基本で打った行　　　　４０％<br>
+          　　片手略語を使った行　　４０％<br>
+          　　中の群の助詞　　　　　１０％<br>
+          　　両手略語の行　　　　　１０％
+          </p>
+        </blockquote>
+        <p>この結果でみると、ある１つの両手略語の出現度は片手略語に比べてきわめて低い。略語は頭でおぼえただけでは役にたたない；反復練習ほとんど無意識に反射的に指に出なければならない。その訓練の時間と努力を基本と片手略語にふりむけたほうが有利だという結論に達したので、１０年ほど前に両手略語を大幅に減らしたのである。その結果は打数で２％弱の増となるが、総合的に速記者の成績はむしろ上っている。</p>
+      </div>
+      <div lang="en"></div>
+    </section>
+    <section id="kanji-designation">
+      <div lang="ja">
+        <h2>５　漢字入力への応用</h2>
+        <h3>５.１　漢字指定</h3>
+        <p>以上４.までで述べたのは、現在のソクタイプ速記のあらましを紹介したので、新しいことではない。この速記の打ち方を応用すれば普通の漢字かな文を機械に入力する速度を、現在の漢テレ式のさん孔機に比べて、５倍ないし７倍にあげることができる。その方法を紹介するのがこの論文の目的であって、以下にそのあらましを述べる。</p>
+        <p>速記記号は一種の音文字で、同音語は意味にかかわらなく同じ記号、反訳の際に前後から判断して文字を選んでいる。しかし、機械にはこの判断は困難であるから、適当な方法で漢字を区別する打つ方をすればこれを高速度漢字入力に利用することができる。幸い現在のソクタイプで中央の＊印が、速記にはほとんど使わない遊びキーになっているので、これを漢字指定キーに利用できる。位置もあらかじめその目的で設計したかのように格好のところにある。</p>
+        <p>そこで、つぎのように決める。</p>
+        <ol class="lettered">
+          <li>基本はすべてひらがなにする。</li>
+          <li>略語で同音異語がなく、普通に漢字で書く語にそのまま漢字にする。たとえば</li>
+        </ol>
+      </div>
+      <div lang="en"></div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">         K    I S H  </span><ruby>日本<rt>にほん</rt></ruby></div>
+        <div><span class="line">        TK   O  SK   </span><ruby>問題<rt>もんだい</rt></ruby></div>
+        <div><span class="line">  HK  I            T </span><ruby>技術<rt></rt></ruby></div>
+      </div>
+      <div lang="ja">
+        <ol class="lettered" start="3">
+          <li>略語で同音異語があればその１つに決める。</li>
+        </ol>
+      </div>
+      <div lang="en"></div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">        TK   O AS   Y</span><ruby>政策<rt>せいさく</rt></ruby>（製作）</div>
+        <div><span class="line">         K      S   Y</span><ruby>証人<rt>しょうにん</rt></ruby>（商人、承認）</div>
+        <div><span class="line">   K A             T </span><ruby>間接<rt>かんせつ</rt></ruby>（関節）</div>
+      </div>
+      <div lang="ja">
+        <p class="contin">　　　 　 括弧内の語は別の打ち法をする。</p>
+        <p>この（b）、（c）によって略語からすぐ漢字ででる語が約２５０語ある。</p>
+        <ol class="lettered" start="4">
+          <li>＊印を利用して漢字１字ずつのコードをつくる。このコードの作り方は、つぎの５.２で別に述べる。</li>
+          <li>頻度の高い熟語には、略語のない場合にも熟語としてのコードをつくり、一挙に２字以上をまとめて指定する。最初この種類２４５ごを選んで。</li>
+        </ol>
+      </div>
+      <div lang="en"></div>
+    </section>
+    <section id="kanji-code">
+      <div lang="ja">
+        <h3>５.２　漢字コード</h3>
+        <p>ソクタイプの１打（２１ビット）は２００万以上の変化を持つから、１打で漢字１字を指定することはたやすいともいえるが、それを人間がおぼえて、とっさに出ることが必要だから、文字とコードとの連想、同一性をつく流のにくふうがいる。ただ、機械的に対応させたのでは、人間の側に通用しない、人間が発信するコードをつくるために、つぎの３つの方法をとる。</p>
+        <ol class="lettered">
+          <li>訓の強い文字は、その訓をキーワードとして、それをソクタイプの普通の打ち方で打つて同時に＊を打つ。</li>
+        </ol>
+      </div>
+      <div lang="en"></div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">   K  I   *   I S    </span><ruby>岸<rt>きし</rt></ruby></div>
+        <div><span class="line"> T       K*I         </span><ruby>月<rt>つき</rt></ruby></div>
+      </div>
+      <div lang="ja">
+        <ul>
+          <li class="empty">
+            <p>この種類、当用漢字１８５０のうつ６６０字約１/３にのぼる。</p>
+            <p><b>例：</b>花米母苗泥田土道丸岩岸顏月波板坂......</p>
+            <p>訓の中には後娘届柳卸戻薬畳など２打語もあるが、コードとしてはこのキーワードの第１打だけをとる。</p>
+          </li>
+        </ul>
+        <ol class="lettered" start="2">
+          <li>
+            <p>字音からコードをつくるものも２５０字ほどある。</p>
+            <b>例：</b>盆晚案電度液芸菲不会......。なるべく訓のない字、音でつかうことの多い字、他の語に補足的につくことの多い字などを選んで。</p>
+          </li>
+        </ol>
+        <ol class="lettered" start="3">
+          <li>熟語をキーワードとするもの。これが約半数である。キーワードはなるべく音訓のどちらか、１字の内部で処理するほうが、オペレータの心理的負担は軽いのであるが、多くの同音漢字を区別するために、その字を含む熟語をキーとすることはやむをえない。１つだけ実例をあげると、「ど」という音の字は「土度怒努」であるが、いちばん流動性の大きい「度」に音の「ど」をあて、「土」は訓の「つち」がよく固まっている。「怒」には「怒号」、「努」には「努力」をキーとする。</li>
+        </ol>
+      </div>
+      <div lang="en"></div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line"> T      T *I         </span>土　　つち</div>
+        <div><span class="line"> THKS     *          </span>度　　ど</div>
+        <div><span class="line"> THKS     *   IA KH  </span>怒　　怒号</div>
+        <div><span class="line">        TK*     SHKT </span>努　　努力（略語）</div>
+      </div>
+    </section>
+    <section id="words-over-letters">
+      <div lang="ja">
+        <h2>６　熟語本位への切り換え</h2>
+        <h3>６.１　文字よりも単語</h3>
+        <p>以上ざっと説明した漢字指定の方法で少し実験してみたところ、分速２５０字（１２０〜１３０語）ぐらいは無理なくこなせることがわかった。</p>
+        <p>しかし、１つの漢字語を１字１字打つのと、１語としてらえるのでは非常に能率がちがう。ただ、打数など機械的の面だけでなく、心理的にも１字ずつの漢字を意識の表面に取り出すことはオペレータには大きな負担になる。</p>
+        <p>言語学的にみても、読んだり、書いたり、タイプしたり（しゃべったり、聞いたりはいわずもがな）、すべて国語を駆使する場合、文字は意識にのぼらないのが理想であり当然でもある。病的現象なのである。漢語でも文字の意識の強いうちは、未熟語イとみなければならない。</p>
+        <p>そので昨年（１９６９年）初め、漢字指定を単独漢字主義から熟語本位に切り換えた。切り換え前にも頻度の高い語、約５００語は文字に分解せず、一塊として処理した（５.１（b）（c）（e））。今度はこれを約１００００語に拡張した。１００００語あればたいがいの安定した漢語ははいるから、オペレータの疲労度と速度に大きく影響すると思われる。</p>
+        <p>この１００００語は筆者が辞書から選んだだけであるから、今後各方面の検討を期待する。語数も１００００語と限ったことはない。２００００でも３０００でも機会の記憶能力は充分余裕がある。そんなに覚えるのはたいへんだろうという人もあったが、たいがいまともな漢語はみなあるとなればがえって覚えなくてもすむ。</p>
+      </div>
+      <div lang="en"></div>
+    </section>
+    <section id="homophones">
+      <div lang="ja">
+        <h3>６.２　同音語の処理</h3>
+        <p>漢語だいつも問題になるのは、同音語の取扱いである。漢字ソクタイプでは、言語音以外の方法で機械に漢字を指示するために、５種類の手段を用意している。音に関連を持ちながら、それぞれ打ち方を変えるのであるが、紙数がないから、詳しい説明は割愛し他日にゆずる。</p>
+      </div>
+      <div lang="en"></div>
+    </section>
+    <section id="conclusion">
+      <div lang="ja">
+        <h2>７　むすび</h2>
+        <p>漢字情報をふくむ２１ビットのさん孔テープができたら、機械がこれを受けて普通文書をつくる道程については、将来もっと近道があると思うが、差し当たりは１２ビットの漢テレテープにまず反訳するのである。</p>
+        <p>それによって、現在の端末機械（たとえば新聞社の漢テレやモノタイプ）に連結する。この反訳の字引と、プログラムは相当膨大ではあるが、今日の電算機の能力からは、むしろ軽い仕事かと思う。</p>
+        <p>この方法によれば、日本語の文書作成速度がのろいというなやみだけは解消する。現在の漢テレによる入力に比べて５倍ないし７倍、さらには速記、すなわち、口でしゃべる速さまで延びる見込みがある。</p>
+        <p>将来、日本語をローマ字で書く時代になっても、漢字を必要としなくなったソクタイプは、ローマ字タイプの２倍ぐらいの速度になると思われる。</p>
+      </div>
+      <div lang="en"></div>
+      <div class="steno">
+                           <!-- YTHKSAIOTK*INOIASKHTY -->
+        <div><span class="line">Y     IOTK INOIASKHTY</span>ということになっても</div>
+        <div><span class="line"> T  S IOTK INO   KH  </span>つずけるのでございます</div>
+        <div><span class="line"> T KSAIOTK IN IAS H  </span>ことわらなければならない</div>
+      </div>
+      <div lang="ja">
+        <p class="contin">など、かなの部分で速度がかせげるからである。</p>
+        <p>（昭和４５年１月１７日受付、同年５月１日再受付）</p>
+      </div>
+      <div lang="en"></div>
+    </section>
+  </body>
+</html>

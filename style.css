@@ -60,10 +60,41 @@ section p {
   line-height: 1.75em;
 }
 
+section p.contin {
+  text-indent: 0;
+}
+
 section footer {
-  text-align: left;
-  padding-left: 30%;
-  line-height: 1.75em;
+  margin-top: 2em;
+  font-size: 90%;
+}
+
+@counter-style lettered {
+  system: extends lower-alpha;
+  prefix: "（";
+  suffix: "）";
+}
+
+.lettered {
+  list-style-type: lettered;
+  margin-left: 2em;
+}
+
+footer ul {
+  margin-left: 2em;
+}
+
+footer li {
+  list-style-type: '＊　';
+}
+
+li.empty {
+  list-style-type: none;
+  margin-left: 4.5em;
+}
+
+li.empty p {
+  text-indent: 0;
 }
 
 .principles {
@@ -72,6 +103,10 @@ section footer {
 
 li {
   margin: 2em auto;
+}
+
+li > p:first-child {
+  text-indent: 0;
 }
 
 .principles p {
@@ -104,6 +139,9 @@ rt {
   border-left: 1px solid black;
   border-right: 1px solid black;
   padding: 6px 12px;
+}
+.line.dots {
+  letter-spacing: 2px;
 }
 
 .steno .line.deleted {
