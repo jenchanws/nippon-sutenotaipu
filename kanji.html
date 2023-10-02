@@ -19,7 +19,7 @@
     />
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
-  <body>
+  <body class="narrow-ja">
     <section>
       <div lang="ja">
         <h1>ソクタイプによる漢字処理法</h1>
@@ -79,7 +79,34 @@
           <li><a href="#conclusion">むすび</a></li>
         </ol>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <h3>Contents</h3>
+        <ol class="contents">
+          <li><a href="#foreword">Foreword</a></li>
+          <li><a href="#background">Current State of Sokutaipu</a></li>
+          <li><a href="#keyboard-layout">Keyboard Layout</a></li>
+          <li>Shorthand Theory
+            <ol>
+              <li><a href="#theory-basics">Basics</a></li>
+              <li><a href="#briefs">Briefs</a></li>
+              <li><a href="#briefs-proportion">Proportion of Briefs</a></li>
+            </ol>
+          </li>
+          <li>Kanji Input Approaches
+            <ol>
+              <li><a href="#kanji-designation">Kanji Assignments</a></li>
+              <li><a href="#kanji-code">Kanji Coding</a></li>
+            </ol>
+          </li>
+          <li>Handling Complex Expressions
+            <ol>
+              <li><a href="#words-over-letters">Words over Letters</a></li>
+              <li><a href="#homophones">Homophones</a></li>
+            </ol>
+          </li>
+          <li><a href="#conclusion">Conclusion</a></li>
+        </ol>
+      </div>
     </section>
     <section id="foreword">
       <div lang="ja">
@@ -91,7 +118,11 @@
           筆者は昨年、ソクタイプによる漢字入力法を発表したが、これはほんのアウトラインだったので、多数のお問い合わせをうけた。今回もページの制限があるから充分ではないが、少し詳しく述べる。
         </p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <h2>1　Foreword</h2>
+        <p>In recent years, high-speed methods have been developed to input kanji and kana sentences by machine, capable of processing thousands of characters a minute, but most of the input for these machines is done using Kanji teletype-style perforated tape. The current reading speed for Kanji teletype is up to 70 characters per minute, which is suboptimal.</p>
+        <p>Last year, I published a method for entering kanji using Sokutaipu, but since it was only a summary, I received many questions. Due to page limitations, I won't be able to give enough information this time either, but I will go into a bit more detail.</p>
+      </div>
     </section>
     <section id="background">
       <div lang="ja">
@@ -115,7 +146,15 @@
           実務には１５０〜１６０語ぐらい確実にとれれば充分とされる（ラジオのニュース解説ぐらいの速さ）。瞬間的には２００語以上もでるが、２００語で１０秒も続くことは実際にはおこらない。
         </p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <h2>2　Current State of Sokutaipu</h2>
+        <p>Sokutaipu is a shorthand machine currently used in courts across the country. It was originally a French invention, used at the Versailles conference at the end of World War I, and was introduced to Japan by the late Dr. Tanakadate Aitachi. It was Mr. Kawakami Akira of the Sokutaipu Research Institute who created the system of keys, symbols, and abbreviations for writing Japanese and brought the machine to its current form. The court system began training stenographers in 1950, and over 1,000 people have graduated in the past 20 years.</p>
+        <p>Becoming a stenographer requires two years of training, but you will learn all of the ways to write in the first six months. However, writing speed is about 70 to 80 words per minute at this point, and it cannot be used as a shorthand system.</p>
+        <p>The "70 or 80 wpm" figure above is the number of words in a sentence written in Romaji. When written in kanji and kana, statistically, one word corresponds to roughly two characters, so 80 words is about 160 characters. The test requires students to read out loud for 5 minutes at each speed, with a passing score of 2% or fewer incorrect words.</p>
+        <p>Once you have learned how to write, all you have to do is practice repeatedly. If you pass the 80 wpm test, you can improve to 90 wpm, then 100 wpm, then reach 130 to 140 wpm by the end of the year. The graduation speed requirement is 170 wpm, but virtually all of them have reached 180 wpm or more, and about half of them are at 200 wpm or more.</p>
+        <p>The speed record is 235 words per minute (470 characters per minute). At this point, it's as if the examiner is being tested to see how fast a person can read.</p>
+        <p>For practical purposes, being able to reliably capture 150 to 160 words per minute, about as fast as a radio news commentary, is considered sufficient. You can speak at more than 200 wpm in an instant, but 200 wpm lasting more than 10 seconds doesn't actually happen.</p>
+      </div>
       <div>
         <img src="layout.png" alt="Sokutaipu layout" />
       </div>
@@ -140,7 +179,11 @@
           活字はそれぞれ個有位置で印字し、横には動かないから、つまり２１孔のさん孔テープと同等である。ことばへの関連づけと、人間が目で見て読むために文字になっているが、機械の中では黒丸でも孔でもよい。たとえば
         </p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <h2>3　Keyboard Layout</h2>
+        <p>The machine has 21 type bars connected in a row, and when you press a key connected to each type bar, they stick out about 2 mm and print at that location. Unlike a typewriter, you can press any number of keys at the same time, and the corresponding letters will be printed in one line. The paper tape is 6 cm wide and 60 m long, folded in a zigzag pattern and placed inside the machine. There are 21 characters lined up within this 6 cm width; whether you write one key or 20, if you press once and release your hand, it will print out one line.</p>
+        <p>Each letter is printed on its own unique position and does not move laterally, so it is equivalent to a 21-hole punch tape. Letters are used to associate with words and be more readable by humans, but in machines it can be written as black circles or holes. For example,</p>
+      </div>
       <div class="steno">
                            <!-- YTHKSAIOTK*INOIASKHTY -->
         <div><span class="line">  H S I      OIA     </span>（人間）</div>
@@ -156,7 +199,7 @@
         <img src="fingers-ja.png" alt="Finger layout (Japanese version)" />
       </div>
       <div lang="en">
-        <p class="contin"></p>
+        <p class="contin">are identical. The keys are assigned to the ten fingers and arranged in a special shape so that you can hit any combination. (Figure 1) The keys are assigned to fingers as follows:</p>
         <img src="fingers-en.png" alt="Finger layout (English version)" />
       </div>
     </section>
@@ -169,7 +212,11 @@
           ＝２５６だから、五十音はもちろん、拗音、それらの長音（「〜おう」と「〜うう」）および「〜あい」、「〜えい」韻までをふくむ音節が区別される＊＊＊。左の群の記号はそのまま裏返しにすれば右の群の記号となる。これらの記号はローマ字のように、子音＋母音の構造になっているが、速記者の意識にはもはや子音、母音はなく
         </p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <h2>4　Shorthand Theory</h2>
+        <h3>4.1　Basics</h3>
+        <p>The 20 letter keys are divided into three banks: left, right, and center. The left bank has 8 keys controlled by the 4 fingers of the left hand, giving a total of 2⁸ = 256 possible chords. Not only the standard 50 syllables of Japanese, but also complex syllables including long sounds (〜おう and 〜うう) and even 〜あい and 〜えい can be distinguished. The keys on the left bank become the keys on the right bank by reversing the order. These keys have a consonant + vowel structure like the Roman alphabet, but the stenographer does not think of consonants or vowels,</p>
+      </div>
       <div>
         <img src="shapes.png" alt="Interpreting Sokutaipu outlines as shapes.">
       </div>
@@ -192,7 +239,17 @@
           基本はこの規則によって、２音節または３音節を１打にする。これはかなで書けば最長７字、平均４字か５字にあたるだろう。しかし、これだけではまだ人間のしゃべる速さに追いつけない。少なくとも、らくに追いつけないから、頻度の高い語に対して略語が決めてある。
         </p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <p class="contin">but rather the shape of the outline and the position of each finger.</p>
+        <p>The center bank has four keys, so you can hit a small number of sounds (つ, く, い, ん, ち, き, and geminated sounds).</p>
+        <p>These three banks comprise what are called the basic sound chords. This is a sort of phonetic alphabet, but when it comes to representing words, there are three important rules:</p>
+        <ol class="lettered">
+          <li>The first syllable of a word is written with the left bank.</li>
+          <li>If the next syllable can be written with the center bank, it must be written with the center bank.</li>
+          <li>For words that do not fit in one stroke, repeat the rest from the left according to rules (a) and (b).</li>
+        </ol>
+        <p>According to these basic rules, two or three syllables can be written in one stroke. The equivalent in kana would be up to 7 characters, or 4 to 5 on average. However, this alone still cannot keep up with the speed of human speech. Since it can be difficult to catch up, briefs have been assigned to the most frequently used words.</p>
+      </div>
     </section>
     <section id="briefs">
       <div lang="ja">
@@ -201,7 +258,10 @@
           略語には６種類ばかりのタイプがあるが、だいたい一見して基本とは区別がつくようになっている。たとえば、
         </p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <h2>4.2　Briefs</h2>
+        <p>There are about six types of abbreviations, but most of them can be distinguished from basic phonetic outlines at a glance. For example,</p>
+      </div>
       <div class="steno">
                            <!-- YTHKSAIOTK*INOIASKHTY -->
         <div><span class="line">   K    T            </span>（くつ）</div>
@@ -209,7 +269,9 @@
       <div lang="ja">
         <p class="contin">は基本で「くつ」であるが、</p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <p class="contin">represents くつ according to the phonetic rules, whereas</p>
+      </div>
       <div class="steno">
                            <!-- YTHKSAIOTK*INOIASKHTY -->
         <div><span class="line">   K               T </span>（くべつ）</div>
@@ -217,15 +279,19 @@
       <div lang="ja">
         <p class="contin">は基本の規則（b）に違反しているから基本ではなく、「区別」という略語になる。また</p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <p class="contin">violates basic rule (b), so it is not a basic phonetic outline but rather an abbreviation (in this case, for 区別). Similarly,</p>
+      </div>
       <div class="steno">
                            <!-- YTHKSAIOTK*INOIASKHTY -->
-        <div><span class="line">    S                </span>（すべて）</div>
+        <div><span class="line">                S    </span>（すべて）</div>
       </div>
       <div lang="ja">
         <p class="contin">は右で「す」と打ってあるが、基本ならば規則（a）（c）によって左があくことはない。これは「すべて」という略語になる。中の群れで打つ助詞、</p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <p class="contin">represents す on the right bank, but according to basic rules (a) and (c) the left bank should not be left open. This is a brief for すべて. These center bank briefs for particles:</p>
+      </div>
       <div class="steno">
                            <!-- YTHKSAIOTK*INOIASKHTY -->
         <div><span class="line">        T            </span>（に）</div>
@@ -238,7 +304,9 @@
       <div lang="ja">
         <p class="contin">およびその組合せの</p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <p class="contin">and their combinations:</p>
+      </div>
       <div class="steno">
                            <!-- YTHKSAIOTK*INOIASKHTY -->
         <div><span class="line">        T  IN        </span>（にも）</div>
@@ -248,7 +316,10 @@
         <p class="contin">なども左があいているから略語である。これらは基本で打っても１打という点では同じだが、１０打に１つぐらいの割ででるこういう助詞を親指（中）で打つと、その間４本の指は休んでつぎの準備をしているから、スムーズにリズミカルに打てるのである。</p>
         <p>略語の各種類にわたって系統的に述べる紙数がないが、大別して片手略語と両手略語とになる。片手略語は左または右の片手で決まるもので、「され、られ、たら、たり、かた、きり、しか、はな」など意味の稀薄な、むしろ、２音のかなとみるべきものや「だけ、など、こと、から、ます、ある、あります、ました、ません」などのような形式語や助詞の類が多い。これに対して両手略語は両手で組み合って１つの略語になるもので、大部分がはっきりした実質語である。</p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <p class="contin">are also briefs because they are open on the left. These are good briefs in that while each one is one stroke, when you write them with your thumbs, which occurs about once every 10 strokes, your four fingers rest and prepare for the next word. Because of this, you can write smoothly and rhythmically.</p>
+        <p>Although there is not enough paper to systematically discuss each type of brief, they can roughly be divided into one-handed briefs and two-handed briefs. One-handed briefs can be written on either the left or right bank, and include words with a weak meaning, such as され, られ, たら, たり, かた, きり, しか, and はな. This also includes formal words and particles such as だけ, など, こと, から, ます, ある, あります, ました, and ません. On the other hand, two-handed briefs are words that use both banks to form a single brief, and most of them are nouns.</p>
+      </div>
     </section>
     <section id="briefs-proportion">
       <div lang="ja">
@@ -264,7 +335,19 @@
         </blockquote>
         <p>この結果でみると、ある１つの両手略語の出現度は片手略語に比べてきわめて低い。略語は頭でおぼえただけでは役にたたない；反復練習ほとんど無意識に反射的に指に出なければならない。その訓練の時間と努力を基本と片手略語にふりむけたほうが有利だという結論に達したので、１０年ほど前に両手略語を大幅に減らしたのである。その結果は打数で２％弱の増となるが、総合的に速記者の成績はむしろ上っている。</p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <h3>4.3　Proportion of Briefs</h3>
+        <p>There are currently a total of 475 briefs, 227 for one hand and 248 for both hands. Previously, the ratio was 231 for one hand and 609 for both hands, but when I examined the actual steno tape, the ratio was roughly as follows:</p>
+        <blockquote>
+          <table>
+            <tr><td>Phonetic outlines</td><td align="right">40%</td></tr>
+            <tr><td>One-handed briefs</td><td align="right">40%</td></tr>
+            <tr><td>Center-bank particles　　</td><td align="right">10%</td></tr>
+            <tr><td>Two-handed briefs</td><td align="right">10%</td></tr>
+          </table>
+        </blockquote>
+        <p>Looking at these results, the frequency of two-handed briefs is extremely low compared to one-handed briefs. Merely memorizing briefs is not useful; you have to practice them over and over until you can write them almost unconsciously and reflexively. I decided that it would be more advantageous to allocate training time to the basics and one-handed briefs, so about ten years ago I drastically reduced the number of two-handed briefs. This resulted in just under 2% more strokes, but overall the performance of stenographers has massively improved.</p>
+      </div>
     </section>
     <section id="kanji-designation">
       <div lang="ja">
@@ -278,7 +361,17 @@
           <li>略語で同音異語がなく、普通に漢字で書く語にそのまま漢字にする。たとえば</li>
         </ol>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <h2>5　Kanji Input Approaches</h2>
+        <h3>5.1　Kanji Assignments</h3>
+        <p>What I have described in section 4 above is not new; that is just a summary of the current Sokutaipu theory. By applying this method, the speed at which ordinary kanji and kana characters can be entered into a machine can be increased 5 to 7 times compared to current Kanji teletype punching machines. The purpose of this paper is to introduce this method, and the outline is given below.</p>
+        <p>Shorthand outlines are a type of phonetic alphabet; homonyms have the same outline, regardless of meaning, and when translating, characters are selected based on context. However, it is difficult for machines to make this determination, so if you use an appropriate method to distinguish between kanji, you can use this for high-speed kanji input. Fortunately the <code>＊</code> key in the center bank is rarely used for shorthand, so it can be used for specifying kanji. The location is perfect, as if it was designed that way on purpose.</p>
+        <p>Therefore, I have decided as follows:</p>
+        <ol class="lettered">
+          <li>All phonetic outlines should be in hiragana.</li>
+          <li>Briefs without homophones are written in kanji for words that are normally written in kanji. For example:</li>
+        </ol>
+      </div>
       <div class="steno">
                            <!-- YTHKSAIOTK*INOIASKHTY -->
         <div><span class="line">         K    I S H  </span><ruby>日本<rt>にほん</rt></ruby></div>
@@ -290,7 +383,11 @@
           <li>略語で同音異語があればその１つに決める。</li>
         </ol>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <ol class="lettered" start="3">
+          <li>If the brief has homophones, choose one.</li>
+        </ol>
+      </div>
       <div class="steno">
                            <!-- YTHKSAIOTK*INOIASKHTY -->
         <div><span class="line">        TK   O AS   Y</span><ruby>政策<rt>せいさく</rt></ruby>（製作）</div>
@@ -302,10 +399,17 @@
         <p>この（b）、（c）によって略語からすぐ漢字ででる語が約２５０語ある。</p>
         <ol class="lettered" start="4">
           <li>＊印を利用して漢字１字ずつのコードをつくる。このコードの作り方は、つぎの５.２で別に述べる。</li>
-          <li>頻度の高い熟語には、略語のない場合にも熟語としてのコードをつくり、一挙に２字以上をまとめて指定する。最初この種類２４５ごを選んで。</li>
+          <li>頻度の高い熟語には、略語のない場合にも熟語としてのコードをつくり、一挙に２字以上をまとめて指定する。最初この種類２４５語を選んで。</li>
         </ol>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <p class="contin">　　　 　 Parentheses indicate homonyms that are spelled differently.</p>
+        <p>Approximately 250 briefs can be written directly in kanji based on rules (b) and (c).</p>
+        <ol class="lettered" start="4">
+          <li>Use the <code>＊</code> key in the center bank to create a code for each kanji. How to create this code will be described separately in section 5.2 below.</li>
+          <li>For frequently occurring expressions, codes are created even if they do not have briefs, and two or more characters are written at once. This covers an additional 245 words.</li>
+        </ol>
+      </div>
     </section>
     <section id="kanji-code">
       <div lang="ja">
@@ -315,7 +419,13 @@
           <li>訓の強い文字は、その訓をキーワードとして、それをソクタイプの普通の打ち方で打つて同時に＊を打つ。</li>
         </ol>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <h3>5.2　Kanji Coding</h3>
+        <p>One stroke (21 bits) of Sokutaipu has more than 2 million possibele values, so while it is easy to specify kanji with one stroke, it is necessary for humans to memorize it so it can be written quickly. There is an method for creating associations between characters and codes. The following three methods are used to create codes that can be written by humans, as they would be difficult for humans if they were made strictly mechanically compatible.</p>
+        <ol class="lettered">
+          <li>For characters with a strong <i>kun</i> reading, use the <i>kun</i> reading as a keyword, write it normally, then press the <code>＊</code> key at the same time.</li>
+        </ol>
+      </div>
       <div class="steno">
                            <!-- YTHKSAIOTK*INOIASKHTY -->
         <div><span class="line">   K  I   *   I S    </span><ruby>岸<rt>きし</rt></ruby></div>
@@ -332,20 +442,37 @@
         <ol class="lettered" start="2">
           <li>
             <p>字音からコードをつくるものも２５０字ほどある。</p>
-            <b>例：</b>盆晚案電度液芸菲不会......。なるべく訓のない字、音でつかうことの多い字、他の語に補足的につくことの多い字などを選んで。</p>
+            <p class="contin"><b>例：</b>盆晚案電度液芸菲不会......</p>
+            <p class="contin">なるべく訓のない字、音でつかうことの多い字、他の語に補足的につくことの多い字などを選んで。</p>
           </li>
-        </ol>
-        <ol class="lettered" start="3">
           <li>熟語をキーワードとするもの。これが約半数である。キーワードはなるべく音訓のどちらか、１字の内部で処理するほうが、オペレータの心理的負担は軽いのであるが、多くの同音漢字を区別するために、その字を含む熟語をキーとすることはやむをえない。１つだけ実例をあげると、「ど」という音の字は「土度怒努」であるが、いちばん流動性の大きい「度」に音の「ど」をあて、「土」は訓の「つち」がよく固まっている。「怒」には「怒号」、「努」には「努力」をキーとする。</li>
         </ol>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <ul>
+          <li class="empty">
+            <p>This accounts for 660 out of 1850, or about 1/3 of daily-use <i>tōyō</i> kanji.</p>
+            <p><b>Examples:</b> 花 米 母 苗 泥 田 土 道 丸 岩 岸 顏 月 波 板 坂</p>
+            <p>Although some of the kanji in this category, such as 後 娘 届 柳 卸 戻 薬 畳 need to be written in two strokes, only the first stroke is taken as the code.</p>
+          </li>
+        </ul>
+        <ol class="lettered" start="2">
+          <li>
+            <p>Another roughly 250 characters can be assigned codes solely from <i>on</i> readings.</p>
+            <p class="contin"><b>Examples:</b> 盆 晚 案 電 度 液 芸 菲 不 会</p>
+            <p class="contin">As much as possible, choose characters that have no meaning on their own, ones that are often used with sounds, or ones that are often used in combination with other words.</p>
+          </li>
+          <li>
+            Use expressions as keywords. This accounts for about half of kanji. The cognitive burden on the operator is lighter if keywords can be input from a single character as much as possible, but in order to distinguish between many homophone kanji, it is unavoidable to use a phrase containing that character as a key. For example, 土 度 怒 努 are all pronounced ど, but the sound code is assigned to 度 which is the most frequent, then 土 gets assigned its <i>kun</i> reading, つち. The remaining two can then have keys based on words containing them: the key for 怒 would be 怒号, and 努 would be 努力.
+          </li>
+        </ol>
+      </div>
       <div class="steno">
                            <!-- YTHKSAIOTK*INOIASKHTY -->
-        <div><span class="line"> T      T *I         </span>土　　つち</div>
-        <div><span class="line"> THKS     *          </span>度　　ど</div>
-        <div><span class="line"> THKS     *   IA KH  </span>怒　　怒号</div>
-        <div><span class="line">        TK*     SHKT </span>努　　努力（略語）</div>
+        <div><span class="line"> T      T *I         </span>土（つち）</div>
+        <div><span class="line"> THKS     *          </span>度（ど）</div>
+        <div><span class="line"> THKS     *   IA KH  </span>怒（怒号）</div>
+        <div><span class="line">        TK*     SHKT </span>努（努力）</div>
       </div>
     </section>
     <section id="words-over-letters">
@@ -358,14 +485,25 @@
         <p>そので昨年（１９６９年）初め、漢字指定を単独漢字主義から熟語本位に切り換えた。切り換え前にも頻度の高い語、約５００語は文字に分解せず、一塊として処理した（５.１（b）（c）（e））。今度はこれを約１００００語に拡張した。１００００語あればたいがいの安定した漢語ははいるから、オペレータの疲労度と速度に大きく影響すると思われる。</p>
         <p>この１００００語は筆者が辞書から選んだだけであるから、今後各方面の検討を期待する。語数も１００００語と限ったことはない。２００００でも３０００でも機会の記憶能力は充分余裕がある。そんなに覚えるのはたいへんだろうという人もあったが、たいがいまともな漢語はみなあるとなればがえって覚えなくてもすむ。</p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <h2>6　Handling Complex Expressions</h2>
+        <h3>6.1　Words over Letters</h3>
+        <p>I did a little experiment with the kanji assignment method as explained above, and found that I could easily write about 250 characters (120〜130 words) per minute.</p>
+        <p>However, there is a huge difference in efficiency between writing each kanji word one by one and treating it as a word. It is a heavy burden on the operator not only mechanically, with the number of strokes, but also mentally to recall each kanji.</p>
+        <p>From a linguistic point of view, when reading, writing, and typing (and not to mention speaking and listening), when using the Japanese language, it is ideal and natural that the letters do not even enter one's consciousness. Even with Chinese, while the awareness of letters is strong, they must be considered in combination rather than separately.</p>
+        <p>Therefore, starting last year (1969), we changed the designation of kanji from individual kanji to words and expressions. Before the switch, approximately 500 high-frequency words were input without bring broken down into letters; this time, I expanded it to about 10,000 words. Since 10,000 words can contain most of the standard kanji, I think this will greatly affect the operator's fatigue level at speed.</p>
+        <p>I simply selected these 10,000 words from a dictionary, so I hope that various aspects will be considered in the future. The number of words is also not limited; whether 20,000 or 3,000, the memory capacity is very high. Some people said it would be difficult to memorize that much, but if you already know all the proper words, you won't have to memorize them at all.</p>
+      </div>
     </section>
     <section id="homophones">
       <div lang="ja">
         <h3>６.２　同音語の処理</h3>
         <p>漢語だいつも問題になるのは、同音語の取扱いである。漢字ソクタイプでは、言語音以外の方法で機械に漢字を指示するために、５種類の手段を用意している。音に関連を持ちながら、それぞれ打ち方を変えるのであるが、紙数がないから、詳しい説明は割愛し他日にゆずる。</p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <h3>6.2　Homophones</h3>
+        <p>One problem that always arises when writing Chinese characters is the handling of homonyms. Kanji Sokutaipu provides five methods for instructing machines to write kanji using methods other than sounds. Although they are still related to sounds, they are written in different ways, but due to the lack of space, I will omit a detailed explanation and leave it for another day.</p>
+      </div>
     </section>
     <section id="conclusion">
       <div lang="ja">
@@ -375,7 +513,13 @@
         <p>この方法によれば、日本語の文書作成速度がのろいというなやみだけは解消する。現在の漢テレによる入力に比べて５倍ないし７倍、さらには速記、すなわち、口でしゃべる速さまで延びる見込みがある。</p>
         <p>将来、日本語をローマ字で書く時代になっても、漢字を必要としなくなったソクタイプは、ローマ字タイプの２倍ぐらいの速度になると思われる。</p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <h2>7　Conclusion</h2>
+        <p>Once a 21-bit perforated tape containing kanji information is made, I think there will be a method in the future for a machine to receive it and create a regular document, but for now we can translate it into a 12-bit kanji teletape.</p>
+        <p>As such, it can be connected to existing computer terminals (for example, newspaper companies' Kan-tele and Monotype). Although the translation dictionary and the program are quite large, I think it is a rather light task given the capabilities of today's computers.</p>
+        <p>This method eliminates the problem of slow document creation speed in Japanese. It is expected that the input speed will be five to seven times faster than current Kan-tele input speeds, and could even reach the speed of shorthand.</p>
+        <p>Even in the future, when Japanese is written in Roman letters, I think that Sokutaipu, which would no longer require kanji, will be about twice as fast as writing directly in Roman letters.</p>
+      </div>
       <div class="steno">
                            <!-- YTHKSAIOTK*INOIASKHTY -->
         <div><span class="line">Y     IOTK INOIASKHTY</span>ということになっても</div>
@@ -384,9 +528,12 @@
       </div>
       <div lang="ja">
         <p class="contin">など、かなの部分で速度がかせげるからである。</p>
-        <p>（昭和４５年１月１７日受付、同年５月１日再受付）</p>
+        <p class="contin">（昭和４５年１月１７日受付、同年５月１日再受付）</p>
       </div>
-      <div lang="en"></div>
+      <div lang="en">
+        <p class="contin">This is because the speed increase comes from the kana writing.</p>
+        <p class="contin">(Received on January 17, 1970, then again on May 1 of the same year.)</p>
+      </div>
     </section>
   </body>
 </html>
